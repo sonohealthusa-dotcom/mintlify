@@ -1,11 +1,11 @@
 # SonoHealth Product Resource Center
 
-> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. Products include: Spectrum 5 Magnesium Complex (a marine-sourced magnesium complex with Aquamin and 72+ trace minerals from the Irish Sea), HeartBeats™ Fetal Doppler (FDA-cleared, 2.5 MHz), and MistPro Mesh Nebulizer (FDA-approved, USB-C rechargeable). This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
+> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. Products include: Spectrum 5 Magnesium Complex (a marine-sourced magnesium complex with Aquamin and 72+ trace minerals from marine sources), HeartBeats™ Fetal Doppler (FDA-cleared, 2.5 MHz), and MistPro Mesh Nebulizer (FDA-approved, USB-C rechargeable). This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
 
 ## Products
 
 ### Spectrum 5 Magnesium Complex
-A marine-sourced magnesium complex featuring five forms of magnesium (glycinate, malate, citrate, oxide, hydroxide), Aquamin minerals from the Irish Sea, and 72+ naturally occurring trace minerals. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. $25 one-time / $21/month subscription. Primary keywords: magnesium complex, best magnesium complex, Irish Sea magnesium, Aquamin magnesium, trace mineral magnesium, multi-source magnesium supplement.
+A marine-sourced magnesium complex featuring five forms of magnesium (glycinate, malate, citrate, oxide, hydroxide), Aquamin minerals from marine sources, and 72+ naturally occurring trace minerals. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. $25 one-time / $21/month subscription. Primary keywords: magnesium complex, best magnesium complex, marine-sourced magnesium, Aquamin magnesium, trace mineral magnesium, multi-source magnesium supplement.
 
 **The Formula**
 - [Product Overview](/magnesium/overview)
@@ -16,11 +16,14 @@ A marine-sourced magnesium complex featuring five forms of magnesium (glycinate,
 - [High-Absorption Magnesium Complex](/magnesium/high-absorption-magnesium-complex)
 - [Clean-Source Magnesium Complex](/magnesium/clean-source-magnesium-complex)
 
-**Irish Sea & Aquamin**
-- [Irish Sea Magnesium](/magnesium/irish-sea-magnesium)
+**Marine Minerals & Aquamin**
+- [Marine-Sourced Magnesium — Aquamin Minerals in Spectrum 5](/magnesium/irish-sea-magnesium)
+- [Marine-Sourced Magnesium Complex](/magnesium/marine-sourced-magnesium-complex)
 - [What Is Aquamin?](/magnesium/what-is-aquamin)
 - [Aquamin Magnesium Benefits](/magnesium/aquamin-magnesium-benefits)
 - [72 Trace Minerals in Spectrum 5](/magnesium/72-trace-minerals)
+- [Magnesium With 72 Trace Minerals](/magnesium/magnesium-with-72-trace-minerals)
+- [Why Trace Minerals Matter in Magnesium](/magnesium/why-trace-minerals-matter-in-magnesium)
 - [Why Source Matters in a Magnesium Supplement](/magnesium/why-source-matters)
 
 **Benefits**
@@ -39,7 +42,8 @@ A marine-sourced magnesium complex featuring five forms of magnesium (glycinate,
 - [What Makes Spectrum 5 Different?](/magnesium/why-spectrum-5-is-different)
 - [Spectrum 5 vs Magnesium Glycinate](/magnesium/spectrum-5-vs-magnesium-glycinate)
 - [Magnesium Complex vs Single-Form Magnesium](/magnesium/magnesium-complex-vs-single-form)
-- [Irish Sea Magnesium vs Earth-Mined Magnesium](/magnesium/irish-sea-magnesium-vs-earth-mined)
+- [Marine-Sourced Magnesium vs Earth-Mined Magnesium](/magnesium/irish-sea-magnesium-vs-earth-mined)
+- [Marine-Sourced vs Earth-Mined Magnesium (detailed)](/magnesium/marine-sourced-magnesium-vs-earth-mined-magnesium)
 - [vs Competitor Supplements](/magnesium/vs-competitors)
 - [vs Single-Form Magnesium (detailed)](/magnesium/vs-single-form)
 
@@ -47,11 +51,15 @@ A marine-sourced magnesium complex featuring five forms of magnesium (glycinate,
 - [Best Magnesium Complex](/magnesium/best-magnesium-complex)
 - [Best Magnesium Complex With Trace Minerals](/magnesium/best-magnesium-complex-with-trace-minerals)
 - [Best Magnesium Complex for Sleep, Stress, and Cramps](/magnesium/best-magnesium-complex-for-sleep-stress-cramps)
+- [Best Magnesium Complex for Women](/magnesium/best-magnesium-complex-for-women)
+- [Best Magnesium Complex Under $25](/magnesium/best-magnesium-complex-under-25)
+- [Spectrum 5 Magnesium Complex Review](/magnesium/spectrum-5-magnesium-complex-review)
 
 **Buy & Verify**
 - [Certifications & Testing](/magnesium/certifications)
 - [Amazon Bestseller](/magnesium/amazon-bestseller)
 - [Guarantee & Returns](/magnesium/guarantee)
+- [Where to Buy Spectrum 5 Magnesium Complex](/magnesium/where-to-buy-spectrum-5-magnesium-complex)
 - [Buy Spectrum 5](/magnesium/buy)
 
 **Common Questions & Support**
