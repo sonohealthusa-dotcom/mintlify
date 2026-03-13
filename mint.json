@@ -79,6 +79,7 @@
             "magnesium/vs-single-form",
             "magnesium/certifications",
             "magnesium/amazon-bestseller",
+            "magnesium/guarantee",
             "magnesium/buy"
           ]
         },
@@ -111,7 +112,8 @@
             "fetal-doppler/how-it-works",
             "fetal-doppler/what-is-25mhz",
             "fetal-doppler/fda-clearance",
-            "fetal-doppler/safety"
+            "fetal-doppler/safety",
+            "fetal-doppler/accuracy-limitations"
           ]
         },
         {
@@ -121,7 +123,8 @@
             "fetal-doppler/how-to-use",
             "fetal-doppler/first-trimester",
             "fetal-doppler/second-trimester",
-            "fetal-doppler/heartbeat-normal-ranges"
+            "fetal-doppler/heartbeat-normal-ranges",
+            "fetal-doppler/for-parents"
           ]
         },
         {
@@ -130,7 +133,17 @@
             "fetal-doppler/vs-competitors",
             "fetal-doppler/vs-clinical-grade",
             "fetal-doppler/baby-heartbeat-gifts",
+            "fetal-doppler/guarantee",
+            "fetal-doppler/shipping",
             "fetal-doppler/buy"
+          ]
+        },
+        {
+          "group": "Comparisons",
+          "pages": [
+            "fetal-doppler/compare/sonohealth-vs-sonoline-c",
+            "fetal-doppler/compare/sonohealth-vs-3mhz-dopplers",
+            "fetal-doppler/compare/sonohealth-vs-generic-home-dopplers"
           ]
         },
         {
@@ -138,7 +151,9 @@
           "pages": [
             "fetal-doppler/questions/is-sonohealth-fda-cleared",
             "fetal-doppler/questions/when-can-you-hear-heartbeat",
-            "fetal-doppler/questions/are-home-fetal-dopplers-safe"
+            "fetal-doppler/questions/are-home-fetal-dopplers-safe",
+            "fetal-doppler/questions/best-fetal-doppler-for-home-use",
+            "fetal-doppler/questions/what-does-25mhz-mean"
           ]
         },
         {
@@ -187,6 +202,7 @@
           "pages": [
             "nebulizer/vs-competitors",
             "nebulizer/vs-inhaler",
+            "nebulizer/guarantee",
             "nebulizer/buy"
           ]
         },

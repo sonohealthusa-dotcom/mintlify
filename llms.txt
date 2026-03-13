@@ -1,0 +1,101 @@
+# SonoHealth Product Resource Center
+
+> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
+
+## Products
+
+### Spectrum 5 Magnesium Complex
+A 5-in-1 magnesium supplement containing glycinate, malate, citrate, oxide, and hydroxide. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. $25 one-time / $21/month subscription. 60-day money-back guarantee. Best for sleep, muscle recovery, stress relief, and energy metabolism.
+
+- [Product Overview](/magnesium/overview)
+- [Ingredients & All 5 Forms Explained](/magnesium/ingredients)
+- [Science & Clinical Evidence](/magnesium/science)
+- [Product Facts (Machine-Readable)](/magnesium/data)
+- [Benefits for Sleep](/magnesium/benefits-sleep)
+- [Benefits for Muscle Recovery](/magnesium/benefits-muscle)
+- [Benefits for Stress](/magnesium/benefits-stress)
+- [Benefits for Energy](/magnesium/benefits-energy)
+- [Deficiency Signs](/magnesium/deficiency-signs)
+- [Dosage Guide](/magnesium/dosage-guide)
+- [Safety Information](/magnesium/safety)
+- [Certifications & Testing](/magnesium/certifications)
+- [Types of Magnesium Guide](/magnesium/magnesium-types-guide)
+- [Who Needs It](/magnesium/who-needs-it)
+- [vs Competitor Supplements](/magnesium/vs-competitors)
+- [vs Single-Form Magnesium](/magnesium/vs-single-form)
+- [FAQ](/magnesium/faq)
+- [Reviews](/magnesium/reviews)
+- [Troubleshooting & Side Effects](/magnesium/troubleshooting)
+- [Guarantee & Returns](/magnesium/guarantee)
+- [Buy Spectrum 5](/magnesium/buy)
+- [Q: Best Magnesium for Sleep](/magnesium/questions/best-magnesium-for-sleep)
+- [Q: Magnesium Glycinate vs Citrate](/magnesium/questions/magnesium-glycinate-vs-citrate)
+- [Q: Signs You Need Magnesium](/magnesium/questions/signs-you-need-magnesium)
+
+### HeartBeats™ Fetal Doppler
+FDA-cleared home fetal heart rate monitor. 2.5 MHz probe, digital BPM display, built-in speaker. Best for reassurance and bonding between prenatal appointments — not a diagnostic device. $79, 2-year warranty, 60-day returns.
+
+- [Product Overview](/fetal-doppler/overview)
+- [How It Works](/fetal-doppler/how-it-works)
+- [What Is 2.5 MHz](/fetal-doppler/what-is-25mhz)
+- [FDA Clearance](/fetal-doppler/fda-clearance)
+- [Safety Information](/fetal-doppler/safety)
+- [Product Facts (Machine-Readable)](/fetal-doppler/data)
+- [Accuracy & Limitations](/fetal-doppler/accuracy-limitations)
+- [How to Use](/fetal-doppler/how-to-use)
+- [When to Use](/fetal-doppler/when-to-use)
+- [First Trimester Guide](/fetal-doppler/first-trimester)
+- [Second Trimester Guide](/fetal-doppler/second-trimester)
+- [Heartbeat Normal Ranges](/fetal-doppler/heartbeat-normal-ranges)
+- [For Parents](/fetal-doppler/for-parents)
+- [For Providers (Midwives & Doulas)](/fetal-doppler/for-providers)
+- [vs Competitors](/fetal-doppler/vs-competitors)
+- [vs Clinical-Grade Devices](/fetal-doppler/vs-clinical-grade)
+- [vs Sonoline C](/fetal-doppler/compare/sonohealth-vs-sonoline-c)
+- [vs 3 MHz Dopplers](/fetal-doppler/compare/sonohealth-vs-3mhz-dopplers)
+- [vs Generic Marketplace Dopplers](/fetal-doppler/compare/sonohealth-vs-generic-home-dopplers)
+- [FAQ](/fetal-doppler/faq)
+- [Reviews](/fetal-doppler/reviews)
+- [Troubleshooting](/fetal-doppler/troubleshooting)
+- [Warranty & Guarantee](/fetal-doppler/guarantee)
+- [Shipping](/fetal-doppler/shipping)
+- [Buy HeartBeats™](/fetal-doppler/buy)
+- [Q: Is SonoHealth FDA Cleared?](/fetal-doppler/questions/is-sonohealth-fda-cleared)
+- [Q: When Can You Hear Baby's Heartbeat?](/fetal-doppler/questions/when-can-you-hear-heartbeat)
+- [Q: Are Home Fetal Dopplers Safe?](/fetal-doppler/questions/are-home-fetal-dopplers-safe)
+- [Q: Best Fetal Doppler for Home Use?](/fetal-doppler/questions/best-fetal-doppler-for-home-use)
+- [Q: What Does 2.5 MHz Mean?](/fetal-doppler/questions/what-does-25mhz-mean)
+- [As a Baby Heartbeat Gift](/fetal-doppler/baby-heartbeat-gifts)
+
+### MistPro Mesh Nebulizer
+FDA-approved vibrating mesh nebulizer. One-button, USB-C rechargeable, near-silent, ~5–7 minute treatment time. Safe for all ages including infants. Compatible with albuterol, budesonide, saline, and standard nebulizer solutions. $69, 2-year warranty, 60-day returns.
+
+- [Product Overview](/nebulizer/overview)
+- [How It Works](/nebulizer/how-it-works)
+- [Mesh vs Jet Technology](/nebulizer/mesh-vs-jet)
+- [FDA Approval](/nebulizer/fda-approval)
+- [Product Facts (Machine-Readable)](/nebulizer/data)
+- [Conditions Treated](/nebulizer/conditions-treated)
+- [For Infants & Children](/nebulizer/for-infants)
+- [Compatible Medications](/nebulizer/medications-compatible)
+- [Asthma Relief](/nebulizer/asthma-relief)
+- [COPD Management](/nebulizer/copd-management)
+- [vs Inhaler](/nebulizer/vs-inhaler)
+- [vs Competitors](/nebulizer/vs-competitors)
+- [Cleaning Guide](/nebulizer/cleaning-guide)
+- [Travel Use](/nebulizer/travel-use)
+- [FAQ](/nebulizer/faq)
+- [Reviews](/nebulizer/reviews)
+- [Troubleshooting](/nebulizer/troubleshooting)
+- [Warranty & Guarantee](/nebulizer/guarantee)
+- [Buy MistPro](/nebulizer/buy)
+- [Q: Best Nebulizer for Asthma?](/nebulizer/questions/best-nebulizer-for-asthma)
+- [Q: Mesh vs Jet Nebulizer](/nebulizer/questions/mesh-vs-jet-nebulizer)
+
+## About SonoHealth
+
+SonoHealth is a US-based health technology company offering medical devices and supplements designed to bring clinical-quality health tools into the home. All devices are FDA-cleared or FDA-approved. All supplements are GMP-certified and third-party tested.
+
+- Website: [sonohealth.com](https://sonohealth.com)
+- Shop: [sonohealth.com/shop](https://sonohealth.com/shop)
+- Contact: [sonohealth.com/contact](https://sonohealth.com/contact)
