@@ -46,64 +46,134 @@
       "group": "Spectrum 5 Magnesium",
       "pages": [
         "magnesium/overview",
-        "magnesium/ingredients",
-        "magnesium/certifications",
-        "magnesium/vs-competitors",
-        "magnesium/science",
-        "magnesium/benefits-sleep",
-        "magnesium/benefits-muscle",
-        "magnesium/benefits-stress",
-        "magnesium/benefits-energy",
-        "magnesium/deficiency-signs",
-        "magnesium/dosage-guide",
-        "magnesium/safety",
-        "magnesium/faq",
-        "magnesium/reviews",
-        "magnesium/magnesium-types-guide",
-        "magnesium/vs-single-form",
-        "magnesium/who-needs-it",
-        "magnesium/amazon-bestseller"
+        {
+          "group": "Ingredients & Science",
+          "pages": [
+            "magnesium/ingredients",
+            "magnesium/science",
+            "magnesium/magnesium-types-guide"
+          ]
+        },
+        {
+          "group": "Benefits",
+          "pages": [
+            "magnesium/benefits-sleep",
+            "magnesium/benefits-muscle",
+            "magnesium/benefits-stress",
+            "magnesium/benefits-energy"
+          ]
+        },
+        {
+          "group": "Guidance",
+          "pages": [
+            "magnesium/deficiency-signs",
+            "magnesium/who-needs-it",
+            "magnesium/dosage-guide",
+            "magnesium/safety"
+          ]
+        },
+        {
+          "group": "Compare & Buy",
+          "pages": [
+            "magnesium/vs-competitors",
+            "magnesium/vs-single-form",
+            "magnesium/certifications",
+            "magnesium/amazon-bestseller"
+          ]
+        },
+        {
+          "group": "FAQ & Reviews",
+          "pages": [
+            "magnesium/faq",
+            "magnesium/reviews"
+          ]
+        }
       ]
     },
     {
       "group": "HeartBeats™ Fetal Doppler",
       "pages": [
         "fetal-doppler/overview",
-        "fetal-doppler/how-it-works",
-        "fetal-doppler/safety",
-        "fetal-doppler/fda-clearance",
-        "fetal-doppler/vs-competitors",
-        "fetal-doppler/when-to-use",
-        "fetal-doppler/how-to-use",
-        "fetal-doppler/what-is-25mhz",
-        "fetal-doppler/faq",
-        "fetal-doppler/reviews",
-        "fetal-doppler/heartbeat-normal-ranges",
-        "fetal-doppler/first-trimester",
-        "fetal-doppler/second-trimester",
-        "fetal-doppler/vs-clinical-grade",
-        "fetal-doppler/baby-heartbeat-gifts"
+        {
+          "group": "How It Works",
+          "pages": [
+            "fetal-doppler/how-it-works",
+            "fetal-doppler/what-is-25mhz",
+            "fetal-doppler/fda-clearance",
+            "fetal-doppler/safety"
+          ]
+        },
+        {
+          "group": "Using Your Doppler",
+          "pages": [
+            "fetal-doppler/when-to-use",
+            "fetal-doppler/how-to-use",
+            "fetal-doppler/first-trimester",
+            "fetal-doppler/second-trimester",
+            "fetal-doppler/heartbeat-normal-ranges"
+          ]
+        },
+        {
+          "group": "Compare & Buy",
+          "pages": [
+            "fetal-doppler/vs-competitors",
+            "fetal-doppler/vs-clinical-grade",
+            "fetal-doppler/baby-heartbeat-gifts"
+          ]
+        },
+        {
+          "group": "FAQ & Reviews",
+          "pages": [
+            "fetal-doppler/faq",
+            "fetal-doppler/reviews"
+          ]
+        }
       ]
     },
     {
       "group": "MistPro Mesh Nebulizer",
       "pages": [
         "nebulizer/overview",
-        "nebulizer/how-it-works",
-        "nebulizer/mesh-vs-jet",
-        "nebulizer/vs-competitors",
-        "nebulizer/fda-approval",
-        "nebulizer/for-infants",
-        "nebulizer/conditions-treated",
-        "nebulizer/medications-compatible",
-        "nebulizer/cleaning-guide",
-        "nebulizer/travel-use",
-        "nebulizer/vs-inhaler",
-        "nebulizer/asthma-relief",
-        "nebulizer/copd-management",
-        "nebulizer/faq",
-        "nebulizer/reviews",
-        "nebulizer/warranty-support"
+        {
+          "group": "How It Works",
+          "pages": [
+            "nebulizer/how-it-works",
+            "nebulizer/mesh-vs-jet",
+            "nebulizer/fda-approval"
+          ]
+        },
+        {
+          "group": "Conditions & Use",
+          "pages": [
+            "nebulizer/conditions-treated",
+            "nebulizer/asthma-relief",
+            "nebulizer/copd-management",
+            "nebulizer/for-infants",
+            "nebulizer/medications-compatible"
+          ]
+        },
+        {
+          "group": "Using Your Nebulizer",
+          "pages": [
+            "nebulizer/cleaning-guide",
+            "nebulizer/travel-use"
+          ]
+        },
+        {
+          "group": "Compare & Buy",
+          "pages": [
+            "nebulizer/vs-competitors",
+            "nebulizer/vs-inhaler"
+          ]
+        },
+        {
+          "group": "FAQ & Support",
+          "pages": [
+            "nebulizer/faq",
+            "nebulizer/reviews",
+            "nebulizer/warranty-support"
+          ]
+        }
       ]
     }
   ],
