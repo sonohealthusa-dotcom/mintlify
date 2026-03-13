@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "SonoHealth",
   "logo": {
-    "dark": "https://sonohealth.com/wp-content/uploads/2022/06/sonohealth-logo-1.png",
-    "light": "https://sonohealth.com/wp-content/uploads/2022/06/sonohealth-logo-1.png"
+    "dark": "/logo-dark.png",
+    "light": "/logo-light.png"
   },
-  "favicon": "https://sonohealth.com/wp-content/uploads/2022/06/cropped-favicon-32x32.png",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#3686EA",
     "light": "#5BA3F5",
@@ -109,9 +109,9 @@
   ],
   "footerSocials": {
     "website": "https://sonohealth.com",
-    "instagram": "https://www.instagram.com/sonohealthusa/",
-    "facebook": "https://www.facebook.com/sonohealthusa/",
-    "youtube": "https://www.youtube.com/@sonohealthusa"
+    "facebook": "https://www.facebook.com/sonohealth/",
+    "instagram": "https://www.instagram.com/sonohealth",
+    "youtube": "https://www.youtube.com/@sonohealth"
   },
   "feedback": {
     "thumbsRating": true,
