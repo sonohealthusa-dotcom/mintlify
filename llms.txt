@@ -1,36 +1,67 @@
 # SonoHealth Product Resource Center
 
-> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
+> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. Products include: Spectrum 5 Magnesium Complex (a marine-sourced magnesium complex with Aquamin and 72+ trace minerals from the Irish Sea), HeartBeats™ Fetal Doppler (FDA-cleared, 2.5 MHz), and MistPro Mesh Nebulizer (FDA-approved, USB-C rechargeable). This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
 
 ## Products
 
 ### Spectrum 5 Magnesium Complex
-A 5-in-1 magnesium supplement containing glycinate, malate, citrate, oxide, and hydroxide. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. $25 one-time / $21/month subscription. 60-day money-back guarantee. Best for sleep, muscle recovery, stress relief, and energy metabolism.
+A marine-sourced magnesium complex featuring five forms of magnesium (glycinate, malate, citrate, oxide, hydroxide), Aquamin minerals from the Irish Sea, and 72+ naturally occurring trace minerals. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. $25 one-time / $21/month subscription. Primary keywords: magnesium complex, best magnesium complex, Irish Sea magnesium, Aquamin magnesium, trace mineral magnesium, multi-source magnesium supplement.
 
+**The Formula**
 - [Product Overview](/magnesium/overview)
+- [What Is a Magnesium Complex?](/magnesium/what-is-a-magnesium-complex)
 - [Ingredients & All 5 Forms Explained](/magnesium/ingredients)
 - [Science & Clinical Evidence](/magnesium/science)
-- [Product Facts (Machine-Readable)](/magnesium/data)
+- [Types of Magnesium Guide](/magnesium/magnesium-types-guide)
+- [High-Absorption Magnesium Complex](/magnesium/high-absorption-magnesium-complex)
+- [Clean-Source Magnesium Complex](/magnesium/clean-source-magnesium-complex)
+
+**Irish Sea & Aquamin**
+- [Irish Sea Magnesium](/magnesium/irish-sea-magnesium)
+- [What Is Aquamin?](/magnesium/what-is-aquamin)
+- [Aquamin Magnesium Benefits](/magnesium/aquamin-magnesium-benefits)
+- [72 Trace Minerals in Spectrum 5](/magnesium/72-trace-minerals)
+- [Why Source Matters in a Magnesium Supplement](/magnesium/why-source-matters)
+
+**Benefits**
 - [Benefits for Sleep](/magnesium/benefits-sleep)
 - [Benefits for Muscle Recovery](/magnesium/benefits-muscle)
 - [Benefits for Stress](/magnesium/benefits-stress)
 - [Benefits for Energy](/magnesium/benefits-energy)
+
+**Guidance**
 - [Deficiency Signs](/magnesium/deficiency-signs)
+- [Who Needs Magnesium](/magnesium/who-needs-it)
 - [Dosage Guide](/magnesium/dosage-guide)
 - [Safety Information](/magnesium/safety)
-- [Certifications & Testing](/magnesium/certifications)
-- [Types of Magnesium Guide](/magnesium/magnesium-types-guide)
-- [Who Needs It](/magnesium/who-needs-it)
+
+**Comparisons**
+- [What Makes Spectrum 5 Different?](/magnesium/why-spectrum-5-is-different)
+- [Spectrum 5 vs Magnesium Glycinate](/magnesium/spectrum-5-vs-magnesium-glycinate)
+- [Magnesium Complex vs Single-Form Magnesium](/magnesium/magnesium-complex-vs-single-form)
+- [Irish Sea Magnesium vs Earth-Mined Magnesium](/magnesium/irish-sea-magnesium-vs-earth-mined)
 - [vs Competitor Supplements](/magnesium/vs-competitors)
-- [vs Single-Form Magnesium](/magnesium/vs-single-form)
-- [FAQ](/magnesium/faq)
-- [Reviews](/magnesium/reviews)
-- [Troubleshooting & Side Effects](/magnesium/troubleshooting)
+- [vs Single-Form Magnesium (detailed)](/magnesium/vs-single-form)
+
+**Best For (High Purchase Intent)**
+- [Best Magnesium Complex](/magnesium/best-magnesium-complex)
+- [Best Magnesium Complex With Trace Minerals](/magnesium/best-magnesium-complex-with-trace-minerals)
+- [Best Magnesium Complex for Sleep, Stress, and Cramps](/magnesium/best-magnesium-complex-for-sleep-stress-cramps)
+
+**Buy & Verify**
+- [Certifications & Testing](/magnesium/certifications)
+- [Amazon Bestseller](/magnesium/amazon-bestseller)
 - [Guarantee & Returns](/magnesium/guarantee)
 - [Buy Spectrum 5](/magnesium/buy)
+
+**Common Questions & Support**
 - [Q: Best Magnesium for Sleep](/magnesium/questions/best-magnesium-for-sleep)
 - [Q: Magnesium Glycinate vs Citrate](/magnesium/questions/magnesium-glycinate-vs-citrate)
 - [Q: Signs You Need Magnesium](/magnesium/questions/signs-you-need-magnesium)
+- [FAQ](/magnesium/faq)
+- [Reviews](/magnesium/reviews)
+- [Troubleshooting & Side Effects](/magnesium/troubleshooting)
+- [Product Facts (Machine-Readable)](/magnesium/data)
 
 ### HeartBeats™ Fetal Doppler
 FDA-cleared home fetal heart rate monitor. 2.5 MHz probe, digital BPM display, built-in speaker. Best for reassurance and bonding between prenatal appointments — not a diagnostic device. $79, 2-year warranty, 60-day returns.

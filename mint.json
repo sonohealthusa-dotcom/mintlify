@@ -47,11 +47,24 @@
       "pages": [
         "magnesium/overview",
         {
-          "group": "Ingredients & Science",
+          "group": "The Formula",
           "pages": [
+            "magnesium/what-is-a-magnesium-complex",
             "magnesium/ingredients",
             "magnesium/science",
-            "magnesium/magnesium-types-guide"
+            "magnesium/magnesium-types-guide",
+            "magnesium/high-absorption-magnesium-complex",
+            "magnesium/clean-source-magnesium-complex"
+          ]
+        },
+        {
+          "group": "Irish Sea & Aquamin",
+          "pages": [
+            "magnesium/irish-sea-magnesium",
+            "magnesium/what-is-aquamin",
+            "magnesium/aquamin-magnesium-benefits",
+            "magnesium/72-trace-minerals",
+            "magnesium/why-source-matters"
           ]
         },
         {
@@ -73,10 +86,27 @@
           ]
         },
         {
-          "group": "Compare & Buy",
+          "group": "Comparisons",
           "pages": [
+            "magnesium/why-spectrum-5-is-different",
+            "magnesium/spectrum-5-vs-magnesium-glycinate",
+            "magnesium/magnesium-complex-vs-single-form",
+            "magnesium/irish-sea-magnesium-vs-earth-mined",
             "magnesium/vs-competitors",
-            "magnesium/vs-single-form",
+            "magnesium/vs-single-form"
+          ]
+        },
+        {
+          "group": "Best For",
+          "pages": [
+            "magnesium/best-magnesium-complex",
+            "magnesium/best-magnesium-complex-with-trace-minerals",
+            "magnesium/best-magnesium-complex-for-sleep-stress-cramps"
+          ]
+        },
+        {
+          "group": "Buy & Verify",
+          "pages": [
             "magnesium/certifications",
             "magnesium/amazon-bestseller",
             "magnesium/guarantee",
