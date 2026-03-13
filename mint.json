@@ -78,14 +78,25 @@
             "magnesium/vs-competitors",
             "magnesium/vs-single-form",
             "magnesium/certifications",
-            "magnesium/amazon-bestseller"
+            "magnesium/amazon-bestseller",
+            "magnesium/buy"
           ]
         },
         {
-          "group": "FAQ & Reviews",
+          "group": "Common Questions",
+          "pages": [
+            "magnesium/questions/best-magnesium-for-sleep",
+            "magnesium/questions/magnesium-glycinate-vs-citrate",
+            "magnesium/questions/signs-you-need-magnesium"
+          ]
+        },
+        {
+          "group": "FAQ, Reviews & Support",
           "pages": [
             "magnesium/faq",
-            "magnesium/reviews"
+            "magnesium/reviews",
+            "magnesium/troubleshooting",
+            "magnesium/data"
           ]
         }
       ]
@@ -118,14 +129,26 @@
           "pages": [
             "fetal-doppler/vs-competitors",
             "fetal-doppler/vs-clinical-grade",
-            "fetal-doppler/baby-heartbeat-gifts"
+            "fetal-doppler/baby-heartbeat-gifts",
+            "fetal-doppler/buy"
           ]
         },
         {
-          "group": "FAQ & Reviews",
+          "group": "Common Questions",
+          "pages": [
+            "fetal-doppler/questions/is-sonohealth-fda-cleared",
+            "fetal-doppler/questions/when-can-you-hear-heartbeat",
+            "fetal-doppler/questions/are-home-fetal-dopplers-safe"
+          ]
+        },
+        {
+          "group": "FAQ, Reviews & Support",
           "pages": [
             "fetal-doppler/faq",
-            "fetal-doppler/reviews"
+            "fetal-doppler/reviews",
+            "fetal-doppler/troubleshooting",
+            "fetal-doppler/for-providers",
+            "fetal-doppler/data"
           ]
         }
       ]
@@ -163,15 +186,25 @@
           "group": "Compare & Buy",
           "pages": [
             "nebulizer/vs-competitors",
-            "nebulizer/vs-inhaler"
+            "nebulizer/vs-inhaler",
+            "nebulizer/buy"
           ]
         },
         {
-          "group": "FAQ & Support",
+          "group": "Common Questions",
+          "pages": [
+            "nebulizer/questions/best-nebulizer-for-asthma",
+            "nebulizer/questions/mesh-vs-jet-nebulizer"
+          ]
+        },
+        {
+          "group": "FAQ, Reviews & Support",
           "pages": [
             "nebulizer/faq",
             "nebulizer/reviews",
-            "nebulizer/warranty-support"
+            "nebulizer/troubleshooting",
+            "nebulizer/warranty-support",
+            "nebulizer/data"
           ]
         }
       ]
