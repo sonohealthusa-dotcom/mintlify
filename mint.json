@@ -1,0 +1,121 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "SonoHealth",
+  "logo": {
+    "dark": "https://sonohealth.com/wp-content/uploads/2022/06/sonohealth-logo-1.png",
+    "light": "https://sonohealth.com/wp-content/uploads/2022/06/sonohealth-logo-1.png"
+  },
+  "favicon": "https://sonohealth.com/wp-content/uploads/2022/06/cropped-favicon-32x32.png",
+  "colors": {
+    "primary": "#3686EA",
+    "light": "#5BA3F5",
+    "dark": "#45377F",
+    "anchors": {
+      "from": "#3686EA",
+      "to": "#0D7F5E"
+    },
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#1A1A2E"
+    }
+  },
+  "font": {
+    "headings": {
+      "family": "Roboto"
+    },
+    "body": {
+      "family": "Roboto"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Shop SonoHealth.com",
+      "url": "https://sonohealth.com/shop/"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Buy Now",
+    "url": "https://sonohealth.com/shop/"
+  },
+  "navigation": [
+    {
+      "group": "Welcome",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Spectrum 5 Magnesium",
+      "pages": [
+        "magnesium/overview",
+        "magnesium/ingredients",
+        "magnesium/certifications",
+        "magnesium/vs-competitors",
+        "magnesium/science",
+        "magnesium/benefits-sleep",
+        "magnesium/benefits-muscle",
+        "magnesium/benefits-stress",
+        "magnesium/benefits-energy",
+        "magnesium/deficiency-signs",
+        "magnesium/dosage-guide",
+        "magnesium/safety",
+        "magnesium/faq",
+        "magnesium/reviews",
+        "magnesium/magnesium-types-guide",
+        "magnesium/vs-single-form",
+        "magnesium/who-needs-it",
+        "magnesium/amazon-bestseller"
+      ]
+    },
+    {
+      "group": "HeartBeats™ Fetal Doppler",
+      "pages": [
+        "fetal-doppler/overview",
+        "fetal-doppler/how-it-works",
+        "fetal-doppler/safety",
+        "fetal-doppler/fda-clearance",
+        "fetal-doppler/vs-competitors",
+        "fetal-doppler/when-to-use",
+        "fetal-doppler/how-to-use",
+        "fetal-doppler/what-is-25mhz",
+        "fetal-doppler/faq",
+        "fetal-doppler/reviews",
+        "fetal-doppler/heartbeat-normal-ranges",
+        "fetal-doppler/first-trimester",
+        "fetal-doppler/second-trimester",
+        "fetal-doppler/vs-clinical-grade",
+        "fetal-doppler/baby-heartbeat-gifts"
+      ]
+    },
+    {
+      "group": "MistPro Mesh Nebulizer",
+      "pages": [
+        "nebulizer/overview",
+        "nebulizer/how-it-works",
+        "nebulizer/mesh-vs-jet",
+        "nebulizer/vs-competitors",
+        "nebulizer/fda-approval",
+        "nebulizer/for-infants",
+        "nebulizer/conditions-treated",
+        "nebulizer/medications-compatible",
+        "nebulizer/cleaning-guide",
+        "nebulizer/travel-use",
+        "nebulizer/vs-inhaler",
+        "nebulizer/asthma-relief",
+        "nebulizer/copd-management",
+        "nebulizer/faq",
+        "nebulizer/reviews",
+        "nebulizer/warranty-support"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://sonohealth.com",
+    "amazon": "https://www.amazon.com/stores/SonoHealth/page/home"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false
+  },
+  "search": {
+    "prompt": "Search SonoHealth products, ingredients, and FAQs..."
+  }
+}
