@@ -264,6 +264,12 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/introduction"
+    }
+  ],
   "footerSocials": {
     "website": "https://sonohealth.com",
     "facebook": "https://www.facebook.com/sonohealth/",
