@@ -262,6 +262,71 @@
           ]
         }
       ]
+    },
+    {
+      "group": "AirPro HEPA 14 Air Purifier",
+      "pages": [
+        "air-purifier/overview",
+        {
+          "group": "How It Works",
+          "pages": [
+            "air-purifier/how-it-works",
+            "air-purifier/hepa-14-filtration",
+            "air-purifier/uv-c-sterilization"
+          ]
+        },
+        {
+          "group": "Air Quality & Use Cases",
+          "pages": [
+            "air-purifier/air-quality-guide",
+            "air-purifier/allergen-removal",
+            "air-purifier/mold-protection",
+            "air-purifier/asthma-relief",
+            "air-purifier/for-bedrooms",
+            "air-purifier/for-pets"
+          ]
+        },
+        {
+          "group": "Using Your AirPro",
+          "pages": [
+            "air-purifier/room-coverage",
+            "air-purifier/smart-features",
+            "air-purifier/filter-replacement"
+          ]
+        },
+        {
+          "group": "Compare & Buy",
+          "pages": [
+            "air-purifier/vs-competitors",
+            "air-purifier/guarantee",
+            "air-purifier/buy"
+          ]
+        },
+        {
+          "group": "Best For",
+          "pages": [
+            "air-purifier/best-hepa-14-air-purifier",
+            "air-purifier/best-air-purifier-for-allergies",
+            "air-purifier/best-air-purifier-under-200"
+          ]
+        },
+        {
+          "group": "Common Questions",
+          "pages": [
+            "air-purifier/questions/best-air-purifier-for-home",
+            "air-purifier/questions/hepa-14-vs-hepa-13"
+          ]
+        },
+        {
+          "group": "FAQ, Reviews & Support",
+          "pages": [
+            "air-purifier/faq",
+            "air-purifier/reviews",
+            "air-purifier/troubleshooting",
+            "air-purifier/data"
+          ]
+        }
+      ]
     }
   ],
   "redirects": [

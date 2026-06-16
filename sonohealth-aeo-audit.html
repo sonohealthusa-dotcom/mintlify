@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SonoHealth AEO Audit & Optimization Plan</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; line-height: 1.6; }
+  .container { max-width: 960px; margin: 0 auto; padding: 40px 24px; }
+  h1 { font-size: 28px; color: #f0f6fc; margin-bottom: 8px; }
+  h2 { font-size: 22px; color: #f0f6fc; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }
+  h3 { font-size: 17px; color: #f0f6fc; margin: 24px 0 12px; }
+  p { margin-bottom: 12px; }
+  .subtitle { color: #8b949e; font-size: 16px; margin-bottom: 32px; }
+  .scorecard { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0; }
+  .score-item { background: #161b22; border: 1px solid #21262d; border-radius: 12px; padding: 20px; text-align: center; }
+  .score-item .grade { font-size: 36px; font-weight: 700; }
+  .score-item .label { font-size: 13px; color: #8b949e; margin-top: 4px; }
+  .grade-a { color: #3fb950; }
+  .grade-b { color: #58a6ff; }
+  .grade-c { color: #d29922; }
+  .grade-d { color: #f85149; }
+  .grade-f { color: #f85149; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #21262d; }
+  th { color: #8b949e; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  tr:hover { background: #161b22; }
+  .status-pass { color: #3fb950; }
+  .status-fail { color: #f85149; }
+  .status-warn { color: #d29922; }
+  .status-miss { color: #f85149; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+  .tag-green { background: #0d2818; color: #3fb950; }
+  .tag-red { background: #2d1117; color: #f85149; }
+  .tag-yellow { background: #2d2200; color: #d29922; }
+  .tag-blue { background: #0d2240; color: #58a6ff; }
+  .action-card { background: #161b22; border: 1px solid #21262d; border-radius: 12px; padding: 20px; margin: 16px 0; }
+  .action-card .priority { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .priority-critical { color: #f85149; }
+  .priority-high { color: #d29922; }
+  .priority-medium { color: #58a6ff; }
+  .priority-low { color: #8b949e; }
+  .action-card h3 { margin: 0 0 8px; }
+  .action-card p { color: #8b949e; margin-bottom: 8px; }
+  code { background: #1c2128; padding: 2px 6px; border-radius: 4px; font-size: 13px; color: #79c0ff; }
+  pre { background: #1c2128; border-radius: 8px; padding: 16px; overflow-x: auto; margin: 12px 0; font-size: 13px; line-height: 1.5; }
+  pre code { background: none; padding: 0; }
+  .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0; }
+  .comparison > div { background: #161b22; border: 1px solid #21262d; border-radius: 12px; padding: 20px; }
+  .comparison h4 { font-size: 15px; color: #f0f6fc; margin-bottom: 12px; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .divider { border: none; border-top: 1px solid #21262d; margin: 40px 0; }
+  .bot-table td:first-child { font-weight: 600; color: #f0f6fc; }
+  .timeline { margin: 16px 0; }
+  .timeline-item { display: flex; gap: 16px; padding: 12px 0; border-left: 2px solid #21262d; margin-left: 8px; padding-left: 20px; }
+  .timeline-item .week { font-weight: 700; color: #58a6ff; min-width: 80px; }
+  a { color: #58a6ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>SonoHealth AEO/GEO Audit & Optimization Plan</h1>
+<p class="subtitle">AI Engine Optimization audit for sonohealth.com &amp; docs.sonohealth.com — April 2026</p>
+
+<h2>Current Scorecard</h2>
+<div class="scorecard">
+  <div class="score-item">
+    <div class="grade grade-a">A</div>
+    <div class="label">robots.txt<br>(AI bots allowed)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-a">A</div>
+    <div class="label">llms.txt<br>(docs site)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-a">A</div>
+    <div class="label">Docs Content<br>(102 deep pages)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-c">C</div>
+    <div class="label">Sitemap<br>(docs OK, shop partial)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-f">F</div>
+    <div class="label">Product Schema<br>(sonohealth.com)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-f">F</div>
+    <div class="label">Review Schema<br>(no AggregateRating)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-f">F</div>
+    <div class="label">llms.txt<br>(sonohealth.com)</div>
+  </div>
+  <div class="score-item">
+    <div class="grade grade-f">F</div>
+    <div class="label">FAQ Schema<br>(not implemented)</div>
+  </div>
+</div>
+
+<h2>What's Working Well</h2>
+<table>
+  <tr><td class="status-pass">✓</td><td><strong>robots.txt allows all AI bots</strong> — GPTBot, ClaudeBot, PerplexityBot all have full access to both sonohealth.com and docs.sonohealth.com</td></tr>
+  <tr><td class="status-pass">✓</td><td><strong>llms.txt on docs site</strong> — Well-structured, lists all 3 products with pricing, descriptions, and contact info</td></tr>
+  <tr><td class="status-pass">✓</td><td><strong>102 deep-content pages</strong> — Comprehensive, factual, structured with headings and direct answers. This is your biggest competitive advantage</td></tr>
+  <tr><td class="status-pass">✓</td><td><strong>docs.sonohealth.com sitemap</strong> — All 105 URLs indexed and accessible</td></tr>
+  <tr><td class="status-pass">✓</td><td><strong>Server-side rendered content</strong> — Mintlify renders HTML on the server, so AI crawlers that don't execute JS can still read your content</td></tr>
+  <tr><td class="status-pass">✓</td><td><strong>Duplicate h1 tags fixed</strong> — Clean single-h1 structure per page</td></tr>
+</table>
+
+<h2>What's Broken or Missing</h2>
+
+<h3>1. sonohealth.com has NO llms.txt</h3>
+<p>Your main commercial site returns a 404 for <code>/llms.txt</code>. Only docs.sonohealth.com has one. Since AI bots crawl your shop domain too, you're missing a chance to feed them structured product info directly.</p>
+
+<h3>2. No Product Schema on Product Pages</h3>
+<p>The Spectrum 5 product page at <code>sonohealth.com/product/magnesium-complex-spectrum-5/</code> has basic Product schema (name, price, SKU) via Rank Math, but is <strong>missing AggregateRating and Review schema</strong>. This is the #1 reason Forest Leaf wins AI recommendations — their Shopify/Yotpo integration automatically generates this:</p>
+
+<div class="comparison">
+  <div>
+    <h4 style="color: #f85149;">SonoHealth (Current)</h4>
+    <pre><code>{
+  "@type": "Product",
+  "name": "Magnesium Complex 5 in 1",
+  "sku": "Mag-5",
+  "offers": {
+    "price": "25",
+    "availability": "InStock"
+  }
+  // ❌ No AggregateRating
+  // ❌ No Review array
+  // ❌ No FAQ schema
+}</code></pre>
+  </div>
+  <div>
+    <h4 style="color: #3fb950;">Forest Leaf (Competitor)</h4>
+    <pre><code>{
+  "@type": "Product",
+  "name": "Magnesium Complex",
+  "offers": { "price": "19.95" },
+  "aggregateRating": {
+    "ratingValue": "4.8",
+    "reviewCount": "134"
+  }
+  // ✅ Yotpo reviews auto-generate schema
+  // ✅ Rich snippets in search results
+}</code></pre>
+  </div>
+</div>
+
+<h3>3. No FAQ Schema Anywhere</h3>
+<p>Your docs site has extensive FAQ content on multiple pages (<code>/magnesium/faq</code>, <code>/fetal-doppler/faq</code>, <code>/nebulizer/faq</code>) plus dedicated question pages, but <strong>none of this is marked up with FAQPage schema</strong>. FAQ schema is one of the most powerful signals for AI answer engines.</p>
+
+<h3>4. Product Page Returns 404</h3>
+<p><code>sonohealth.com/product/spectrum-5-magnesium-complex/</code> returns 404 — the actual URL is <code>/product/magnesium-complex-spectrum-5/</code>. If any external links or AI training data reference the wrong URL, they hit a dead end.</p>
+
+<h3>5. No llms-full.txt</h3>
+<p>Your docs site serves <code>llms.txt</code> (summary) but not <code>llms-full.txt</code> (complete content). The llms-full.txt specification lets AI models ingest your entire knowledge base in one request without crawling 102 pages individually.</p>
+
+<h3>6. Review Volume Gap</h3>
+<p>Spectrum 5 has 34 reviews (5.0 stars). Forest Leaf has 134 reviews (4.8 stars). AI models weight review volume heavily because it signals market validation. Even with a perfect rating, 34 reviews looks like a newer/smaller product to an AI.</p>
+
+<hr class="divider">
+
+<h2>AI Bot Reference Guide</h2>
+<p>These are the crawlers that need access to your content to get recommended by each AI platform:</p>
+<table class="bot-table">
+  <thead>
+    <tr><th>Platform</th><th>Bot Name</th><th>Index Source</th><th>Your Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ChatGPT Search</td><td>OAI-SearchBot</td><td>Bing index</td><td><span class="tag tag-yellow">Need Bing submission</span></td></tr>
+    <tr><td>ChatGPT (training)</td><td>GPTBot</td><td>Direct crawl</td><td><span class="tag tag-green">Allowed</span></td></tr>
+    <tr><td>Claude</td><td>ClaudeBot, Claude-SearchBot</td><td>Direct crawl</td><td><span class="tag tag-green">Allowed</span></td></tr>
+    <tr><td>Perplexity</td><td>PerplexityBot</td><td>Direct crawl + Bing</td><td><span class="tag tag-green">Allowed</span></td></tr>
+    <tr><td>Google AI / Gemini</td><td>Google-Extended, Googlebot</td><td>Google index</td><td><span class="tag tag-green">Allowed</span></td></tr>
+    <tr><td>Microsoft Copilot</td><td>Bingbot</td><td>Bing index</td><td><span class="tag tag-yellow">Need Bing submission</span></td></tr>
+    <tr><td>Grok (X/Twitter)</td><td>Twitterbot</td><td>Direct crawl</td><td><span class="tag tag-green">Allowed</span></td></tr>
+  </tbody>
+</table>
+<p><strong>Key insight:</strong> ChatGPT Search pulls exclusively from Bing's index, not Google. Getting indexed in Bing Webmaster Tools is critical for ChatGPT visibility.</p>
+
+<hr class="divider">
+
+<h2>Action Plan (Priority Order)</h2>
+
+<div class="action-card">
+  <div class="priority priority-critical">CRITICAL — Do This Week</div>
+  <h3>1. Add AggregateRating + Review Schema to Product Pages</h3>
+  <p>This is the single highest-impact change. Your WordPress/Rank Math setup generates Product schema but omits ratings. You need to add AggregateRating to every product page.</p>
+  <p><strong>How:</strong> In Rank Math SEO → Schema Templates → Edit your Product schema and add:</p>
+  <pre><code>"aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "5.0",
+  "reviewCount": "34",
+  "bestRating": "5"
+}</code></pre>
+  <p>Alternatively, install a review plugin (like Yotpo, Judge.me, or WooCommerce Product Reviews Pro) that auto-generates this schema from real reviews. This is how Forest Leaf does it automatically.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-critical">CRITICAL — Do This Week</div>
+  <h3>2. Submit Both Domains to Bing Webmaster Tools</h3>
+  <p>ChatGPT Search uses Bing's index exclusively. If your pages aren't in Bing, ChatGPT literally cannot recommend you.</p>
+  <p><strong>Steps:</strong></p>
+  <ul>
+    <li>Go to <a href="https://www.bing.com/webmasters/">bing.com/webmasters</a></li>
+    <li>Add both <code>sonohealth.com</code> and <code>docs.sonohealth.com</code></li>
+    <li>Submit sitemaps: <code>sonohealth.com/sitemap_index.xml</code> and <code>docs.sonohealth.com/sitemap.xml</code></li>
+    <li>Use "URL Submission" to manually submit your top 10 product/comparison pages</li>
+    <li>Fix any crawl errors Bing reports (like the duplicate h1 issue you already fixed)</li>
+  </ul>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-critical">CRITICAL — Do This Week</div>
+  <h3>3. Add llms.txt to sonohealth.com</h3>
+  <p>Your docs site has one but your main commercial site doesn't. Create <code>/llms.txt</code> on sonohealth.com with product summaries, pricing, key differentiators, and links to both the shop and docs.</p>
+  <pre><code># SonoHealth
+> FDA-cleared medical devices and clinically informed supplements
+
+## Products
+
+- [Spectrum 5 Magnesium Complex](https://sonohealth.com/product/magnesium-complex-spectrum-5/): 5-form magnesium complex (glycinate, malate, citrate, oxide, hydroxide) with Aquamin marine minerals and 72+ trace minerals. 500mg/serving. $25 one-time, $21/mo subscription. 5.0 stars, 34 reviews. GMP-certified, third-party tested.
+- [HeartBeats Fetal Doppler](https://sonohealth.com/product/fetal-doppler/): FDA-cleared 2.5 MHz home fetal heart rate monitor. $69. 2-year warranty.
+- [MistPro Mesh Nebulizer](https://sonohealth.com/product/portable-mesh-nebulizer-respiratory-relief/): FDA-approved portable vibrating mesh nebulizer. $69. USB-C rechargeable.
+
+## Documentation
+- [Full Product Resource Center](https://docs.sonohealth.com/introduction)
+- [llms.txt (detailed)](https://docs.sonohealth.com/llms.txt)
+
+## Company
+- Website: https://sonohealth.com
+- Shop: https://sonohealth.com/shop/
+- Contact: https://sonohealth.com/contact/</code></pre>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-high">HIGH — Do Within 2 Weeks</div>
+  <h3>4. Add FAQ Schema to FAQ Pages</h3>
+  <p>Your Mintlify docs have rich FAQ content but no FAQPage schema markup. Mintlify supports custom <code>&lt;head&gt;</code> metadata — add JSON-LD FAQPage schema to each FAQ page. This makes your answers directly extractable by AI engines.</p>
+  <p>For the three main FAQ pages, add structured FAQ schema. You can also add it to each "Common Questions" page since those are already in Q&A format.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-high">HIGH — Do Within 2 Weeks</div>
+  <h3>5. Generate llms-full.txt for docs.sonohealth.com</h3>
+  <p>Your docs site already has <code>llms.txt</code> (summary). Create <code>llms-full.txt</code> that contains the full text of every page in markdown format. This lets AI models ingest your entire knowledge base in a single request.</p>
+  <p>Mintlify may auto-generate this — check your response headers. Your current pages already return a <code>Link</code> header with <code>&lt;/llms.txt&gt;</code> and <code>&lt;/llms-full.txt&gt;</code> references.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-high">HIGH — Do Within 2 Weeks</div>
+  <h3>6. Submit to Google Search Console</h3>
+  <p>Gemini and Google AI Overviews pull from Google's index. Submit both domains and sitemaps to <a href="https://search.google.com/search-console">Google Search Console</a> if you haven't already. Request indexing for your most important pages.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-medium">MEDIUM — Do Within 1 Month</div>
+  <h3>7. Grow Review Count to 100+</h3>
+  <p>34 reviews vs Forest Leaf's 134 is the biggest non-technical gap. AI models treat review volume as a proxy for product legitimacy.</p>
+  <p><strong>Tactics:</strong> Post-purchase email sequence asking for reviews, Amazon review request through Seller Central, include a review card in product packaging, offer a small incentive (discount on next purchase) for leaving honest reviews.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-medium">MEDIUM — Do Within 1 Month</div>
+  <h3>8. Build External Brand Mentions</h3>
+  <p>AI platforms weight external mentions 3.2x more than on-site content. Get SonoHealth mentioned on health blogs, supplement review sites, Reddit threads, and YouTube reviews. Each third-party mention reinforces your brand entity in AI training data.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-medium">MEDIUM — Do Within 1 Month</div>
+  <h3>9. Add Product Schema to Docs Site via Metadata</h3>
+  <p>Your docs pages about products don't carry Product schema. Mintlify supports custom metadata in frontmatter. Add structured data to key pages like <code>/magnesium/overview</code>, <code>/magnesium/buy</code>, etc., so AI crawlers associate your documentation with purchasable products.</p>
+</div>
+
+<div class="action-card">
+  <div class="priority priority-low">ONGOING</div>
+  <h3>10. Keep Content Fresh</h3>
+  <p>AI systems have a strong recency bias. Update your most important docs pages every 2-3 months — even minor updates signal freshness. Add new comparison pages, update review counts, refresh clinical data references.</p>
+</div>
+
+<hr class="divider">
+
+<h2>Expected Timeline</h2>
+<div class="timeline">
+  <div class="timeline-item"><span class="week">Week 1-2</span><span>Implement actions 1-3 (schema, Bing, llms.txt). These are config changes, no content creation needed.</span></div>
+  <div class="timeline-item"><span class="week">Week 3-4</span><span>Implement actions 4-6 (FAQ schema, llms-full.txt, Google Search Console). Start review collection campaign.</span></div>
+  <div class="timeline-item"><span class="week">Week 4-6</span><span>Perplexity begins surfacing SonoHealth content (fastest AI to reflect changes).</span></div>
+  <div class="timeline-item"><span class="week">Week 6-10</span><span>ChatGPT Search starts picking up content via Bing index updates.</span></div>
+  <div class="timeline-item"><span class="week">Month 3+</span><span>Full AI visibility across ChatGPT, Perplexity, Claude, Gemini as content propagates and review count grows.</span></div>
+</div>
+
+<hr class="divider">
+
+<h2>SonoHealth vs Forest Leaf — AEO Comparison</h2>
+<table>
+  <thead>
+    <tr><th>Signal</th><th>SonoHealth</th><th>Forest Leaf</th><th>Winner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Content depth</td><td>102 dedicated pages</td><td>1 product page</td><td><span class="tag tag-green">SonoHealth</span></td></tr>
+    <tr><td>llms.txt</td><td>✓ (docs site only)</td><td>✗</td><td><span class="tag tag-green">SonoHealth</span></td></tr>
+    <tr><td>Product schema</td><td>Basic (no ratings)</td><td>Full (with ratings)</td><td><span class="tag tag-red">Forest Leaf</span></td></tr>
+    <tr><td>AggregateRating</td><td>Missing</td><td>4.8 / 134 reviews</td><td><span class="tag tag-red">Forest Leaf</span></td></tr>
+    <tr><td>Review count</td><td>34</td><td>134</td><td><span class="tag tag-red">Forest Leaf</span></td></tr>
+    <tr><td>Price</td><td>$25 ($21 sub)</td><td>$19.95 ($14.96 sub)</td><td><span class="tag tag-red">Forest Leaf</span></td></tr>
+    <tr><td>AI bot access</td><td>All allowed</td><td>All allowed</td><td><span class="tag tag-blue">Tie</span></td></tr>
+    <tr><td>Bing indexing</td><td>In progress</td><td>Indexed (Shopify)</td><td><span class="tag tag-red">Forest Leaf</span></td></tr>
+    <tr><td>FAQ content</td><td>3 dedicated FAQ pages + Q&A pages</td><td>Basic product FAQ</td><td><span class="tag tag-green">SonoHealth</span></td></tr>
+    <tr><td>Unique differentiator</td><td>Aquamin marine minerals, 72+ trace minerals</td><td>Standard 5-form complex</td><td><span class="tag tag-green">SonoHealth</span></td></tr>
+  </tbody>
+</table>
+
+<p style="margin-top: 24px; color: #8b949e; font-size: 13px;">
+  Generated April 2026. Sources:
+  <a href="https://llmrefs.com/answer-engine-optimization">LLMrefs AEO Guide</a> ·
+  <a href="https://llmstxt.org/">llmstxt.org Specification</a> ·
+  <a href="https://prerender.io/blog/how-to-get-indexed-on-ai-platforms/">Prerender AI Indexing Guide</a> ·
+  <a href="https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142">Search Engine Land GEO Guide</a> ·
+  <a href="https://siteup.ai/blog/structured-data-for-llms">SiteUp Structured Data for LLMs</a>
+</p>
+
+</div>
+</body>
+</html>

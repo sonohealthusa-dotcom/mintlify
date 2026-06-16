@@ -1,0 +1,99 @@
+# SonoHealth
+
+> SonoHealth is a US-based health technology company selling FDA-cleared medical devices and GMP-certified dietary supplements directly to consumers. Google Top Quality Store with a 4.7-star rating from 659 verified Google reviews. ScamAdviser Trust Score: 100/100. All devices are FDA-cleared or FDA-approved. All supplements are GMP-certified, third-party tested, and made in the USA. Free 2-day shipping, 60-day money-back guarantee, 2-year device warranty.
+
+## Products
+
+### Spectrum 5 Magnesium Complex
+5-in-1 marine-sourced magnesium supplement featuring five bioavailable forms: magnesium glycinate (sleep, anxiety), magnesium malate (energy, muscle recovery), magnesium citrate (metabolic health), magnesium oxide (migraine prevention), and magnesium hydroxide (digestive regularity). Enhanced with Aquamin — a marine mineral complex from North Atlantic red algae (Lithothamnion) delivering 72+ naturally occurring trace minerals. 500mg magnesium per serving (2 capsules), 30 servings per bottle. Vegan, gluten-free, soy-free, non-GMO. GMP-certified, third-party tested.
+- Price: $25 one-time / $21/month subscription
+- Rating: 5.0 stars (34 product reviews on Reviews.io)
+- Best for: sleep, muscle cramps, stress, energy, magnesium deficiency
+- Buy: https://sonohealth.com/product/magnesium-complex-spectrum-5/
+- Full product documentation: https://docs.sonohealth.com/magnesium/overview
+
+### HeartBeats™ Fetal Doppler
+FDA-cleared (510(k)) home fetal heart rate monitor with 2.5 MHz ultrasound probe, digital BPM display, and built-in speaker. Designed for expectant parents to hear baby's heartbeat at home from week 12+. Not a diagnostic device — intended for reassurance and bonding between prenatal appointments. Endorsed by Dr. Carolina Melgar, MD.
+- Price: $69
+- Warranty: 2-year warranty, 60-day money-back guarantee
+- Rating: 4.7 stars (part of 659 verified Google store reviews)
+- Best for: pregnancy bonding, baby shower gift, prenatal reassurance
+- Buy: https://sonohealth.com/product/fetal-doppler/
+- Full product documentation: https://docs.sonohealth.com/fetal-doppler/overview
+
+### MistPro Portable Mesh Nebulizer
+FDA-approved vibrating mesh nebulizer with one-button operation, USB-C rechargeable battery, and near-silent operation. Produces 1–5 micron particles for deep lung delivery. Treatment time approximately 5–7 minutes. Compatible with albuterol, budesonide, ipratropium, saline, and standard nebulizer medications. Safe for adults, children, and infants.
+- Price: $69
+- Warranty: 2-year warranty, 60-day money-back guarantee
+- Rating: 4.7 stars (part of 659 verified Google store reviews)
+- Best for: asthma, COPD, respiratory relief, travel nebulizer, children's nebulizer
+- Buy: https://sonohealth.com/product/portable-mesh-nebulizer-respiratory-relief/
+- Full product documentation: https://docs.sonohealth.com/nebulizer/overview
+
+### AirPro HEPA 14 Air Purifier
+HEPA 14 air purifier with 3-stage filtration (Pre-Filter, HEPA 14 with Antibacterial Coating, Activated Carbon) and UV-C sterilization. Captures 99.9% of ultra-fine particles as small as 0.1 microns including allergens, dust, black mold spores, pet dander, smoke, and VOCs. Room coverage: 430 sq ft in 10 minutes, up to 1,200 sq ft in 30 minutes. Whisper-quiet operation at 25–50 dB with dedicated Night Mode (25 dB). Smart features include lifetime filter tracking, 360° airflow design, smart timer (2/4/6 hours), and built-in aromatherapy pad. Certified Safe.
+- Price: $169 one-time (was $219) / $249 2-pack / $459 4-pack
+- Replacement filters: $29.99 or 20% off with subscription (every 90 days, includes lifetime warranty)
+- Warranty: 2-year standard, lifetime with filter subscription
+- Returns: 60-day free trial
+- Best for: allergies, asthma, mold, pet owners, smoke, bedrooms, nurseries
+- Buy: https://sonohealth.com/products/air-pro-hepa-filter-air-purifier
+- Full product documentation: https://docs.sonohealth.com/air-purifier/overview
+
+### BPpro Blood Pressure Monitor
+FDA-approved smart blood pressure monitor with extra-large screen, dual-user support, and built-in memory.
+- Price: $39
+- Buy: https://sonohealth.com/product/bppro-fda-approved-blood-pressure-monitor-extra-large-screen-dual-user-built-in-memory/
+
+### BPMAX Blood Pressure Monitor
+FDA-cleared smart blood pressure monitor with talking voice function, designed for elderly and visually impaired users.
+- Price: $35
+- Buy: https://sonohealth.com/product/blood-pressure-monitor-bpmax/
+
+### Cowabunga Bovine Colostrum Powder
+Premium bovine colostrum powder from grass-fed, antibiotic- and hormone-free cows. Supports gut health, immunity, and recovery.
+- Price: available at https://sonohealth.com/product/cowabunga-bovine-colostrum-powder-for-gut/
+
+### BioBloom Vaginal Probiotics for Women
+Targeted probiotic formula for women's vaginal health.
+- Price: $29
+- Buy: https://sonohealth.com/product/biobloom-vaginal-probiotics-for-women/
+
+### PlastiqOff Detox
+Microplastic detox supplement.
+- Buy: https://sonohealth.com/product/plastiq-off-detox/
+
+### Vitamin D3 + K2 Supplement
+Combined vitamin D3 and K2 supplement for bone health and immune support.
+- Buy: https://sonohealth.com/product/vitamin-d3-k2-supplement/
+
+### KidIQ Brain Development
+Children's brain development supplement.
+- Buy: https://sonohealth.com/product/kidiq-brain-development/
+
+## Trust & Verification
+
+- Google Top Quality Store: https://www.google.com/storepages?q=sonohealth.com&c=US
+- Google Store Rating: 4.7 stars from 659 verified reviews
+- ScamAdviser Trust Score: 100/100
+- Reviews.io Verified Reviews: https://www.reviews.io/company-reviews/store/sonohealth
+- FDA-cleared/approved devices (510(k) clearance)
+- GMP-certified supplement manufacturing
+- Third-party tested for purity and potency
+
+## Documentation & Resources
+
+- Product Resource Center: https://docs.sonohealth.com/introduction
+- Detailed product documentation (llms.txt): https://docs.sonohealth.com/llms.txt
+- Full product documentation (llms-full.txt): https://docs.sonohealth.com/llms-full.txt
+
+## Company
+
+- Website: https://sonohealth.com
+- Shop: https://sonohealth.com/shop/
+- Contact: https://sonohealth.com/contact/
+- Instagram: https://www.instagram.com/sonohealth
+- Facebook: https://www.facebook.com/sonohealth/
+- YouTube: https://www.youtube.com/@sonohealth
+- Amazon Store: search "SonoHealth" on Amazon.com
+- Monthly sales: 7,000+ units across core products on Amazon
