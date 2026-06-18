@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SonoHealth — AI Agent Discoverability Audit & Action Plan</title>
+<style>
+  :root{
+    --ivory:#FAF9F5; --paper:#FFFFFF; --slate:#141413; --clay:#D97757; --clay-d:#B85C3E;
+    --oat:#E3DACC; --olive:#788C5D; --amber:#C0892C;
+    --g100:#F0EEE6; --g200:#E6E3DA; --g300:#D1CFC5; --g500:#87867F; --g700:#3D3D3A;
+    --serif:ui-serif,Georgia,"Times New Roman",serif;
+    --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ivory);color:var(--slate);font-family:var(--sans);
+    line-height:1.55;font-size:17px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1140px;margin:0 auto;padding:48px 32px 72px}
+  a{color:var(--clay-d);text-decoration:none;border-bottom:1px solid var(--oat)}
+  a:hover{color:var(--clay)}
+
+  /* eyebrow */
+  .eyebrow{font-family:var(--mono);font-size:12.5px;text-transform:uppercase;
+    letter-spacing:.12em;color:var(--g700);display:flex;align-items:center;gap:12px;margin-bottom:20px}
+  .eyebrow::before{content:"";width:24px;height:3px;background:var(--clay);display:inline-block;border-radius:2px}
+
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(38px,5.4vw,60px);
+    line-height:1.06;letter-spacing:-.018em;margin:0 0 18px}
+  h1 em{font-style:italic;color:var(--clay-d)}
+  .lede{font-size:clamp(18px,2vw,21px);color:var(--g700);max-width:760px;margin:0 0 14px}
+  .meta{font-family:var(--mono);font-size:12.5px;color:var(--g500);letter-spacing:.02em;
+    border-top:1.5px solid var(--g300);padding-top:14px;margin-top:24px;
+    display:flex;flex-wrap:wrap;gap:8px 22px}
+
+  section{border-top:1.5px solid var(--g300);margin-top:60px;padding-top:40px}
+  section.nodiv{border-top:none}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(26px,3.2vw,34px);
+    line-height:1.12;letter-spacing:-.015em;margin:0 0 6px}
+  h2 .num{font-family:var(--mono);font-size:14px;color:var(--clay);vertical-align:super;margin-right:10px;letter-spacing:0}
+  .sub{color:var(--g500);font-size:15px;margin:0 0 26px;font-family:var(--mono)}
+
+  /* TL;DR card */
+  .tldr{background:var(--paper);border:1.5px solid var(--g300);border-radius:14px;
+    padding:28px 30px;margin-top:30px;box-shadow:0 1px 0 var(--g200)}
+  .tldr h3{font-family:var(--mono);text-transform:uppercase;letter-spacing:.1em;font-size:12.5px;
+    color:var(--clay-d);margin:0 0 14px}
+  .tldr p{margin:0 0 12px}
+  .tldr p:last-child{margin-bottom:0}
+  .tldr strong{color:var(--slate)}
+
+  /* status chips */
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 0}
+  .chip{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:13px;
+    background:var(--paper);border:1.5px solid var(--g300);border-radius:999px;padding:7px 14px}
+  .dot{width:9px;height:9px;border-radius:50%;flex:none}
+  .ok{background:var(--olive)} .warn{background:var(--amber)} .bad{background:var(--clay)}
+
+  /* table */
+  .tablewrap{overflow-x:auto;margin-top:8px;border:1.5px solid var(--g300);border-radius:12px;background:var(--paper)}
+  table{border-collapse:collapse;width:100%;min-width:560px;font-size:15.5px}
+  th,td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--g200)}
+  th{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;
+    color:var(--g700);background:var(--g100)}
+  tr:last-child td{border-bottom:none}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .stars{color:var(--clay-d);font-weight:600}
+  .pillok{font-family:var(--mono);font-size:12px;color:var(--olive);background:#EEF1E8;
+    border-radius:6px;padding:3px 9px;white-space:nowrap}
+
+  /* SVG funnel */
+  .figure{background:var(--paper);border:1.5px solid var(--g300);border-radius:14px;padding:26px 22px;margin-top:28px}
+  .figcap{font-family:var(--mono);font-size:12px;color:var(--g500);margin-top:14px;text-align:center;letter-spacing:.02em}
+
+  /* gap list */
+  .gap{background:var(--paper);border:1.5px solid var(--g300);border-radius:12px;padding:22px 24px;margin-bottom:16px}
+  .gap-head{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap}
+  .gap-title{font-family:var(--serif);font-size:20px;font-weight:600;margin:0;flex:1;min-width:240px}
+  .sev{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.07em;
+    padding:5px 11px;border-radius:999px;white-space:nowrap;font-weight:600}
+  .sev.high{background:var(--clay);color:#fff}
+  .sev.med{background:var(--oat);color:var(--g700)}
+  .sev.low{background:var(--g200);color:var(--g700)}
+  .gap p{margin:12px 0 0;color:var(--g700);font-size:15.5px}
+  .gap .impact{font-family:var(--mono);font-size:12.5px;color:var(--g500);margin-top:12px;display:flex;gap:8px 20px;flex-wrap:wrap}
+  .gap .impact b{color:var(--slate);font-weight:600}
+
+  /* action items */
+  .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    margin:6px 0 22px;position:sticky;top:0;background:var(--ivory);padding:14px 0;z-index:5;border-bottom:1.5px solid var(--g300)}
+  .summary{font-family:var(--mono);font-size:13.5px;color:var(--g700)}
+  .summary b{color:var(--clay-d)}
+  button.primary{font-family:var(--mono);font-size:13.5px;cursor:pointer;border:1.5px solid var(--slate);
+    background:var(--slate);color:var(--ivory);border-radius:999px;padding:10px 18px;transition:.15s;letter-spacing:.02em}
+  button.primary:hover{background:var(--clay-d);border-color:var(--clay-d)}
+  button.primary.copied{background:var(--olive);border-color:var(--olive)}
+
+  .item{background:var(--paper);border:1.5px solid var(--g300);border-radius:12px;padding:20px 22px;margin-bottom:14px;
+    display:flex;gap:16px;align-items:flex-start;transition:.15s}
+  .item.done{opacity:.5}
+  .item.done .it-title{text-decoration:line-through}
+  .check{flex:none;width:26px;height:26px;border:2px solid var(--g500);border-radius:7px;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;margin-top:2px;transition:.12s;background:var(--paper)}
+  .check:hover{border-color:var(--clay)}
+  .item.done .check{background:var(--olive);border-color:var(--olive)}
+  .check svg{opacity:0;transition:.12s}
+  .item.done .check svg{opacity:1}
+  .it-body{flex:1;min-width:0}
+  .it-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .rank{font-family:var(--mono);font-size:12px;color:var(--clay);font-weight:600}
+  .it-title{font-family:var(--serif);font-size:19px;font-weight:600;margin:0}
+  .it-why{margin:9px 0 0;color:var(--g700);font-size:15px}
+  .it-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+  .tag{font-family:var(--mono);font-size:11.5px;padding:4px 10px;border-radius:6px;background:var(--g100);
+    color:var(--g700);border:1px solid var(--g200)}
+  .tag.owner-c{background:#F6ECE6;color:var(--clay-d);border-color:#EAD4C8}
+  .tag.owner-d{background:#EEF1E8;color:var(--olive);border-color:#DCE4CF}
+  .tag.high{background:var(--clay);color:#fff;border-color:var(--clay)}
+
+  code{font-family:var(--mono);font-size:.9em;background:var(--g100);padding:2px 6px;border-radius:5px}
+
+  footer{border-top:1.5px solid var(--g300);margin-top:64px;padding-top:24px;
+    font-family:var(--mono);font-size:12.5px;color:var(--g500);line-height:1.8}
+  footer a{color:var(--g700)}
+  .hint{font-family:var(--mono);font-size:12px;color:var(--g500);margin-top:10px}
+
+  @media(max-width:600px){
+    .wrap{padding:32px 20px 56px}
+    .toolbar{flex-direction:column;align-items:stretch}
+    button.primary{width:100%}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">SonoHealth · Agent Discoverability Audit</div>
+  <h1>Your store, seen through an <em>AI agent's</em> eyes</h1>
+  <p class="lede">A live audit of llms.txt and structured-data signals on sonohealth.com — what already earns recommendations, what's invisible to AI, and the highest-leverage fixes to ship today.</p>
+  <div class="meta">
+    <span>Audited 18 Jun 2026</span>
+    <span>Source: live sonohealth.com</span>
+    <span>Method: rendered JSON-LD + llms.txt / robots.txt / agents.md</span>
+  </div>
+
+  <!-- TLDR -->
+  <div class="tldr">
+    <h3>The verdict</h3>
+    <p><strong>Your foundation is stronger than expected.</strong> The single biggest item once flagged as missing — <strong>AggregateRating schema</strong> — is now live on every product, with healthy review volume (247 on the fetal doppler). llms.txt, agents.md and robots.txt are all deployed and agent-friendly.</p>
+    <p><strong>The remaining wins are entity + trust signals.</strong> Your homepage carries <strong>zero</strong> structured data, so AI has no recognized "SonoHealth" entity to attach those product ratings to. Your offers don't declare free shipping or your money-back guarantee. And llms.txt quotes one stale price. These are all paste-once fixes — drafted below.</p>
+  </div>
+
+  <!-- WHATS WORKING -->
+  <section>
+    <h2><span class="num">01</span>What's already working</h2>
+    <p class="sub">Confirmed live and readable by AI crawlers</p>
+
+    <div class="chips" style="margin-bottom:24px">
+      <span class="chip"><span class="dot ok"></span>llms.txt — UCP + full catalog + trust signals</span>
+      <span class="chip"><span class="dot ok"></span>agents.md — live (UCP)</span>
+      <span class="chip"><span class="dot ok"></span>robots.txt — all crawlers allowed</span>
+      <span class="chip"><span class="dot ok"></span>Product + Offer + Review schema</span>
+      <span class="chip"><span class="dot ok"></span>AggregateRating on every product</span>
+      <span class="chip"><span class="dot ok"></span>docs.sonohealth.com llms-full.txt (~119 KB)</span>
+    </div>
+
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Product</th><th class="num">Rating</th><th class="num">Reviews</th><th class="num">Price</th><th>Availability in schema</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>HeartBeats™ Fetal Doppler</td><td class="num stars">4.82★</td><td class="num">247</td><td class="num">$69</td><td><span class="pillok">InStock ✓</span></td></tr>
+          <tr><td>AirPro HEPA 14 Air Purifier</td><td class="num stars">5.0★</td><td class="num">50</td><td class="num">$169</td><td><span class="pillok">InStock ✓</span></td></tr>
+          <tr><td>Spectrum 5 Magnesium Complex</td><td class="num stars">5.0★</td><td class="num">67</td><td class="num">$29</td><td><span class="pillok">InStock ✓</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="hint">robots.txt uses <code>User-agent: * Allow: /</code>, so GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot and Google-Extended are all permitted. Product schema includes price, <code>priceValidUntil</code>, availability, and embedded reviews.</p>
+  </section>
+
+  <!-- HOW AI FINDS YOU -->
+  <section>
+    <h2><span class="num">02</span>How an agent decides to recommend you</h2>
+    <p class="sub">Where each signal lands in the pipeline — and where you currently drop out</p>
+    <div class="figure">
+      <svg viewBox="0 0 920 230" width="100%" role="img" aria-label="Agent discovery pipeline">
+        <defs>
+          <marker id="arrow" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L6,3 L0,6 Z" fill="#B85C3E"/>
+          </marker>
+        </defs>
+        <!-- connectors -->
+        <line x1="208" y1="92" x2="246" y2="92" stroke="#B85C3E" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="438" y1="92" x2="476" y2="92" stroke="#B85C3E" stroke-width="2" marker-end="url(#arrow)"/>
+        <line x1="668" y1="92" x2="706" y2="92" stroke="#B85C3E" stroke-width="2" marker-end="url(#arrow)"/>
+
+        <!-- step 1 -->
+        <rect x="16" y="44" width="192" height="96" rx="12" fill="#FFFFFF" stroke="#D1CFC5" stroke-width="1.5"/>
+        <text x="32" y="74" font-family="ui-monospace,monospace" font-size="11" fill="#87867F" letter-spacing="1">STEP 1 · CRAWL</text>
+        <text x="32" y="100" font-family="Georgia,serif" font-size="17" fill="#141413">Discover store</text>
+        <text x="32" y="122" font-family="system-ui,sans-serif" font-size="12.5" fill="#788C5D">robots.txt · llms.txt ✓</text>
+
+        <!-- step 2 -->
+        <rect x="246" y="44" width="192" height="96" rx="12" fill="#FFFFFF" stroke="#D1CFC5" stroke-width="1.5"/>
+        <text x="262" y="74" font-family="ui-monospace,monospace" font-size="11" fill="#87867F" letter-spacing="1">STEP 2 · READ</text>
+        <text x="262" y="100" font-family="Georgia,serif" font-size="17" fill="#141413">Parse products</text>
+        <text x="262" y="122" font-family="system-ui,sans-serif" font-size="12.5" fill="#788C5D">Product + rating ✓</text>
+
+        <!-- step 3 -->
+        <rect x="476" y="44" width="192" height="96" rx="12" fill="#FFFFFF" stroke="#D97757" stroke-width="2"/>
+        <text x="492" y="74" font-family="ui-monospace,monospace" font-size="11" fill="#B85C3E" letter-spacing="1">STEP 3 · TRUST</text>
+        <text x="492" y="100" font-family="Georgia,serif" font-size="17" fill="#141413">Build brand entity</text>
+        <text x="492" y="122" font-family="system-ui,sans-serif" font-size="12.5" fill="#B85C3E">No Org schema ✗</text>
+
+        <!-- step 4 -->
+        <rect x="706" y="44" width="198" height="96" rx="12" fill="#FFFFFF" stroke="#D1CFC5" stroke-width="1.5"/>
+        <text x="722" y="74" font-family="ui-monospace,monospace" font-size="11" fill="#87867F" letter-spacing="1">STEP 4 · RECOMMEND</text>
+        <text x="722" y="100" font-family="Georgia,serif" font-size="17" fill="#141413">Surface to buyer</text>
+        <text x="722" y="122" font-family="system-ui,sans-serif" font-size="12.5" fill="#87867F">"free shipping?" ✗</text>
+
+        <text x="460" y="196" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12.5" fill="#87867F">You pass steps 1–2 cleanly. The drop-off is at trust: no entity to anchor ratings, no shipping/returns to quote.</text>
+      </svg>
+      <div class="figcap">Agent discovery pipeline — green = passing, clay = the gap to close</div>
+    </div>
+  </section>
+
+  <!-- GAPS -->
+  <section>
+    <h2><span class="num">03</span>Gaps, ranked</h2>
+    <p class="sub">By impact on whether an AI agent recommends and quotes you accurately</p>
+
+    <div class="gap">
+      <div class="gap-head">
+        <p class="gap-title">1. Homepage has zero schema — no brand entity</p>
+        <span class="sev high">High impact</span>
+      </div>
+      <p>No <code>Organization</code> or <code>WebSite</code> JSON-LD exists anywhere site-wide. This is what lets ChatGPT, Perplexity and Gemini recognize "SonoHealth" as an entity and attach your trust signals (Google Top Quality Store 4.7/659, ScamAdviser 100/100, social profiles) via <code>sameAs</code>. Without it, strong product ratings float with no recognized company behind them.</p>
+      <div class="impact"><span><b>Fix:</b> one snippet in <code>theme.liquid</code> &lt;head&gt;</span><span><b>Effort:</b> ~15 min</span><span><b>Owner:</b> Claude drafts → you paste</span></div>
+    </div>
+
+    <div class="gap">
+      <div class="gap-head">
+        <p class="gap-title">2. Offers omit return policy &amp; shipping</p>
+        <span class="sev high">High impact</span>
+      </div>
+      <p>None of the product offers declare <code>hasMerchantReturnPolicy</code> or <code>shippingDetails</code> — yet you offer free shipping and a 60-day money-back guarantee. These are exactly the attributes agents surface ("free shipping, easy returns") and they also unlock Google's free product listings.</p>
+      <div class="impact"><span><b>Fix:</b> extend Offer schema</span><span><b>Effort:</b> ~30 min</span><span><b>Owner:</b> Claude drafts → you paste</span></div>
+    </div>
+
+    <div class="gap">
+      <div class="gap-head">
+        <p class="gap-title">3. llms.txt has a stale price &amp; thin ratings</p>
+        <span class="sev med">Medium</span>
+      </div>
+      <p>llms.txt lists magnesium at <code>$25</code>; the live price is <code>$29</code>. Agents quote llms.txt verbatim, so a wrong price erodes trust. Most catalog entries also omit per-product star ratings — adding "4.82★ / 247 reviews" to each is free social proof in the first file agents read.</p>
+      <div class="impact"><span><b>Fix:</b> correct price + add ratings</span><span><b>Effort:</b> ~15 min</span><span><b>Owner:</b> Claude drafts → you paste in Liquid</span></div>
+    </div>
+
+    <div class="gap">
+      <div class="gap-head">
+        <p class="gap-title">4. No FAQPage schema on product pages</p>
+        <span class="sev med">Medium</span>
+      </div>
+      <p>Your docs hold excellent FAQ content, but no <code>FAQPage</code> structured data is marked up on product pages — a missed lever for AI answer-extraction and Google rich results.</p>
+      <div class="impact"><span><b>Fix:</b> add FAQPage JSON-LD to top 3 products</span><span><b>Effort:</b> ~30 min</span><span><b>Owner:</b> Claude drafts</span></div>
+    </div>
+
+    <div class="gap">
+      <div class="gap-head">
+        <p class="gap-title">5. Bing indexing not confirmed</p>
+        <span class="sev med">Medium</span>
+      </div>
+      <p>ChatGPT Search runs on Bing's index. Confirming your sitemap is submitted in Bing Webmaster Tools is the highest-leverage action outside the code — and ChatGPT is already your #1 agent visitor.</p>
+      <div class="impact"><span><b>Fix:</b> submit sitemap to Bing</span><span><b>Effort:</b> ~10 min</span><span><b>Owner:</b> You (account access)</span></div>
+    </div>
+
+    <div class="gap">
+      <div class="gap-head">
+        <p class="gap-title">6. No GTIN / MPN identifiers</p>
+        <span class="sev low">Low</span>
+      </div>
+      <p>Product schema lacks <code>gtin</code>/<code>mpn</code>. Adding them improves matching inside shopping graphs and Google Merchant, helping agents tie your listing to the canonical product.</p>
+      <div class="impact"><span><b>Fix:</b> add identifiers where barcodes exist</span><span><b>Effort:</b> varies</span><span><b>Owner:</b> You (product data)</span></div>
+    </div>
+  </section>
+
+  <!-- ACTION ITEMS -->
+  <section>
+    <h2><span class="num">04</span>Do today</h2>
+    <p class="sub">Check items off as you go — then export what's left back to Claude</p>
+
+    <div class="toolbar">
+      <div class="summary" id="summary">0 of 6 done · <b>6 remaining</b></div>
+      <button class="primary" id="copyBtn">Copy remaining as Markdown</button>
+    </div>
+
+    <div id="items">
+      <!-- item -->
+      <div class="item" data-title="Add Organization + WebSite JSON-LD to theme.liquid" data-why="Creates the recognized SonoHealth brand entity with sameAs links to Google Store, Reviews.io and socials, so AI attaches your 4.7/659 trust signals to product ratings." data-owner="Claude drafts → you paste" data-effort="15 min" data-impact="High">
+        <div class="check" role="checkbox" aria-checked="false" tabindex="0"><svg width="15" height="15" viewBox="0 0 15 15"><path d="M2 8 L6 12 L13 3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="it-body">
+          <div class="it-top"><span class="rank">#1</span><p class="it-title">Add Organization + WebSite schema sitewide</p></div>
+          <p class="it-why">Creates the recognized "SonoHealth" entity (logo, <code>sameAs</code> → Google Store, Reviews.io, socials, ScamAdviser) so AI has something to anchor your product ratings to. Biggest single unlock.</p>
+          <div class="it-tags"><span class="tag high">High impact</span><span class="tag">~15 min</span><span class="tag owner-c">Claude drafts → you paste</span></div>
+        </div>
+      </div>
+
+      <div class="item" data-title="Add merchantReturnPolicy + shippingDetails to Offer schema" data-why="Declares free shipping and 60-day money-back guarantee in structured data — signals agents surface and a requirement for Google free listings." data-owner="Claude drafts → you paste" data-effort="30 min" data-impact="High">
+        <div class="check" role="checkbox" aria-checked="false" tabindex="0"><svg width="15" height="15" viewBox="0 0 15 15"><path d="M2 8 L6 12 L13 3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="it-body">
+          <div class="it-top"><span class="rank">#2</span><p class="it-title">Add return policy + shipping to Offer schema</p></div>
+          <p class="it-why">Put your free shipping and 60-day guarantee into <code>hasMerchantReturnPolicy</code> and <code>shippingDetails</code>. Surfaces in agent answers and unlocks Google free product listings.</p>
+          <div class="it-tags"><span class="tag high">High impact</span><span class="tag">~30 min</span><span class="tag owner-c">Claude drafts → you paste</span></div>
+        </div>
+      </div>
+
+      <div class="item" data-title="Fix llms.txt: correct magnesium price + add ratings to each product" data-why="llms.txt says $25 but live price is $29; agents quote it verbatim. Add per-product star ratings + review counts as social proof in the first file agents read." data-owner="Claude drafts → you paste in Liquid" data-effort="15 min" data-impact="Med-High">
+        <div class="check" role="checkbox" aria-checked="false" tabindex="0"><svg width="15" height="15" viewBox="0 0 15 15"><path d="M2 8 L6 12 L13 3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="it-body">
+          <div class="it-top"><span class="rank">#3</span><p class="it-title">Sync llms.txt — fix stale price, add ratings</p></div>
+          <p class="it-why">Correct magnesium <code>$25 → $29</code> and add "rating ★ / N reviews" to every catalog entry. Stale prices erode agent trust; ratings add free social proof.</p>
+          <div class="it-tags"><span class="tag">Med-High</span><span class="tag">~15 min</span><span class="tag owner-c">Claude drafts → you paste</span></div>
+        </div>
+      </div>
+
+      <div class="item" data-title="Add FAQPage schema to top 3 product pages" data-why="Marks up existing docs FAQ content as FAQPage JSON-LD for AI answer-extraction and Google rich results." data-owner="Claude drafts" data-effort="30 min" data-impact="Medium">
+        <div class="check" role="checkbox" aria-checked="false" tabindex="0"><svg width="15" height="15" viewBox="0 0 15 15"><path d="M2 8 L6 12 L13 3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="it-body">
+          <div class="it-top"><span class="rank">#4</span><p class="it-title">Add FAQPage schema to top products</p></div>
+          <p class="it-why">Reuse your docs FAQ answers as <code>FAQPage</code> JSON-LD on doppler, purifier and magnesium pages — a direct lever for AI answer extraction.</p>
+          <div class="it-tags"><span class="tag">Medium</span><span class="tag">~30 min</span><span class="tag owner-c">Claude drafts</span></div>
+        </div>
+      </div>
+
+      <div class="item" data-title="Submit sonohealth.com sitemap to Bing Webmaster Tools" data-why="ChatGPT Search uses Bing's index exclusively and is already your #1 agent visitor. Confirm the sitemap is submitted and indexed." data-owner="You (account access)" data-effort="10 min" data-impact="Medium">
+        <div class="check" role="checkbox" aria-checked="false" tabindex="0"><svg width="15" height="15" viewBox="0 0 15 15"><path d="M2 8 L6 12 L13 3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="it-body">
+          <div class="it-top"><span class="rank">#5</span><p class="it-title">Confirm Bing Webmaster Tools submission</p></div>
+          <p class="it-why">ChatGPT runs on Bing and is your top agent visitor. Submit <code>sitemap.xml</code> in Bing Webmaster Tools and verify indexing.</p>
+          <div class="it-tags"><span class="tag">Medium</span><span class="tag">~10 min</span><span class="tag owner-d">You · account access</span></div>
+        </div>
+      </div>
+
+      <div class="item" data-title="Add GTIN/MPN identifiers to products" data-why="Improves product matching in shopping graphs and Google Merchant. Add where barcodes exist." data-owner="You (product data)" data-effort="varies" data-impact="Low">
+        <div class="check" role="checkbox" aria-checked="false" tabindex="0"><svg width="15" height="15" viewBox="0 0 15 15"><path d="M2 8 L6 12 L13 3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="it-body">
+          <div class="it-top"><span class="rank">#6</span><p class="it-title">Add GTIN / MPN identifiers</p></div>
+          <p class="it-why">Where barcodes exist, add <code>gtin</code>/<code>mpn</code> so agents tie your listing to the canonical product in shopping graphs.</p>
+          <div class="it-tags"><span class="tag">Low</span><span class="tag">Varies</span><span class="tag owner-d">You · product data</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="hint">Tip: items #1–#4 are ones I can draft right now. Check off whatever's done, hit <b>Copy remaining as Markdown</b>, and paste it back to me to start the next one.</p>
+  </section>
+
+  <footer>
+    Generated with the <a href="https://github.com/robonuggets/html-it">html-it</a> skill (Level 3 · Two-Way Interactive) — framework by Thariq Shihipar.<br>
+    Sources audited live on 18 Jun 2026: sonohealth.com/llms.txt · /agents.md · /robots.txt · product JSON-LD (fetal-doppler, air-pro-hepa-filter-air-purifier, magnesium-complex-spectrum-5) · docs.sonohealth.com/llms-full.txt
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var items = Array.prototype.slice.call(document.querySelectorAll('.item'));
+  var summary = document.getElementById('summary');
+  var btn = document.getElementById('copyBtn');
+
+  function refresh(){
+    var done = items.filter(function(i){return i.classList.contains('done');}).length;
+    var remain = items.length - done;
+    summary.innerHTML = done + ' of ' + items.length + ' done · <b>' + remain + ' remaining</b>';
+  }
+  function toggle(item){
+    item.classList.toggle('done');
+    var cb = item.querySelector('.check');
+    cb.setAttribute('aria-checked', item.classList.contains('done') ? 'true':'false');
+    refresh();
+  }
+  items.forEach(function(item){
+    var cb = item.querySelector('.check');
+    cb.addEventListener('click', function(){ toggle(item); });
+    cb.addEventListener('keydown', function(e){
+      if(e.key===' '||e.key==='Enter'){ e.preventDefault(); toggle(item); }
+    });
+  });
+
+  btn.addEventListener('click', function(){
+    var remaining = items.filter(function(i){return !i.classList.contains('done');});
+    var lines = ['# SonoHealth — AI Agent Discoverability · Remaining Action Items','','_Generated 18 Jun 2026 from the live audit._',''];
+    if(remaining.length===0){
+      lines.push('All action items complete. 🎉');
+    } else {
+      remaining.forEach(function(i,idx){
+        lines.push((idx+1)+'. **'+i.getAttribute('data-title')+'**');
+        lines.push('   - Why: '+i.getAttribute('data-why'));
+        lines.push('   - Impact: '+i.getAttribute('data-impact')+' · Effort: '+i.getAttribute('data-effort')+' · Owner: '+i.getAttribute('data-owner'));
+        lines.push('');
+      });
+      lines.push('---');
+      lines.push('Please start with item 1 and draft the exact code/content I need to paste.');
+    }
+    var md = lines.join('\n');
+    function done(){
+      var orig = 'Copy remaining as Markdown';
+      btn.textContent = '✓ Copied ' + remaining.length + ' item' + (remaining.length===1?'':'s');
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = orig; btn.classList.remove('copied'); }, 2200);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(md).then(done, function(){ fallback(md); done(); });
+    } else { fallback(md); done(); }
+  });
+
+  function fallback(text){
+    var ta=document.createElement('textarea'); ta.value=text;
+    ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta);
+    ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta);
+  }
+
+  refresh();
+})();
+</script>
+</body>
+</html>
