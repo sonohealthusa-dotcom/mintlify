@@ -107,7 +107,7 @@
             "magnesium/best-magnesium-complex-with-trace-minerals",
             "magnesium/best-magnesium-complex-for-sleep-stress-cramps",
             "magnesium/best-magnesium-complex-for-women",
-            "magnesium/best-magnesium-complex-under-25",
+            "magnesium/best-magnesium-complex-under-30",
             "magnesium/spectrum-5-magnesium-complex-review"
           ]
         },
@@ -133,6 +133,7 @@
           "group": "FAQ, Reviews & Support",
           "pages": [
             "magnesium/faq",
+            "magnesium/magnesium-for-sleep-and-muscle-cramps",
             "magnesium/reviews",
             "magnesium/troubleshooting",
             "magnesium/data"
@@ -198,6 +199,7 @@
           "group": "FAQ, Reviews & Support",
           "pages": [
             "fetal-doppler/faq",
+            "fetal-doppler/pregnancy-anxiety-between-appointments",
             "fetal-doppler/reviews",
             "fetal-doppler/troubleshooting",
             "fetal-doppler/for-providers",
@@ -255,6 +257,7 @@
           "group": "FAQ, Reviews & Support",
           "pages": [
             "nebulizer/faq",
+            "nebulizer/breathing-relief-at-home",
             "nebulizer/reviews",
             "nebulizer/troubleshooting",
             "nebulizer/warranty-support",
@@ -321,6 +324,7 @@
           "group": "FAQ, Reviews & Support",
           "pages": [
             "air-purifier/faq",
+            "air-purifier/cleaner-indoor-air-smoke-mold-voc",
             "air-purifier/reviews",
             "air-purifier/troubleshooting",
             "air-purifier/data"
@@ -330,6 +334,7 @@
     }
   ],
   "redirects": [
+    { "source": "/magnesium/best-magnesium-complex-under-25", "destination": "/magnesium/best-magnesium-complex-under-30" },
     {
       "source": "/",
       "destination": "/introduction"
