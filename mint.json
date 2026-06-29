@@ -86,6 +86,7 @@
             "magnesium/deficiency-signs",
             "magnesium/who-needs-it",
             "magnesium/dosage-guide",
+            "magnesium/magnesium-and-vitamin-d",
             "magnesium/safety"
           ]
         },
@@ -164,12 +165,18 @@
             "fetal-doppler/first-trimester",
             "fetal-doppler/second-trimester",
             "fetal-doppler/heartbeat-normal-ranges",
+            "fetal-doppler/maternal-vs-fetal-heartbeat",
+            "fetal-doppler/anterior-placenta-guide",
+            "fetal-doppler/twins-and-multiples",
+            "fetal-doppler/reduced-movement-what-to-do",
+            "fetal-doppler/gel-guide",
             "fetal-doppler/for-parents"
           ]
         },
         {
           "group": "Compare & Buy",
           "pages": [
+            "fetal-doppler/choosing-a-fetal-doppler",
             "fetal-doppler/vs-competitors",
             "fetal-doppler/vs-clinical-grade",
             "fetal-doppler/baby-heartbeat-gifts",
@@ -230,7 +237,9 @@
             "nebulizer/asthma-relief",
             "nebulizer/copd-management",
             "nebulizer/for-infants",
-            "nebulizer/medications-compatible"
+            "nebulizer/medications-compatible",
+            "nebulizer/nebulizer-for-kids-guide",
+            "nebulizer/post-cold-cough-congestion"
           ]
         },
         {
@@ -243,6 +252,7 @@
         {
           "group": "Compare & Buy",
           "pages": [
+            "nebulizer/portable-nebulizer-buying-guide",
             "nebulizer/vs-competitors",
             "nebulizer/vs-inhaler",
             "nebulizer/guarantee",
@@ -278,6 +288,7 @@
           "group": "How It Works",
           "pages": [
             "air-purifier/how-it-works",
+            "air-purifier/do-air-purifiers-work",
             "air-purifier/hepa-14-filtration",
             "air-purifier/uv-c-sterilization"
           ]
@@ -291,13 +302,17 @@
             "air-purifier/asthma-relief",
             "air-purifier/for-bedrooms",
             "air-purifier/for-pets",
-            "air-purifier/colds-flu-viruses"
+            "air-purifier/colds-flu-viruses",
+            "air-purifier/wildfire-smoke-guide",
+            "air-purifier/voc-formaldehyde-guide",
+            "air-purifier/air-purifier-vs-humidifier"
           ]
         },
         {
           "group": "Using Your AirPro",
           "pages": [
             "air-purifier/room-coverage",
+            "air-purifier/cadr-vs-ach-explained",
             "air-purifier/smart-features",
             "air-purifier/filter-replacement"
           ]
@@ -345,7 +360,10 @@
         "blood-pressure/how-to-measure-at-home",
         "blood-pressure/high-blood-pressure-when-to-worry",
         "blood-pressure/upper-arm-vs-wrist",
-        "blood-pressure/white-coat-hypertension"
+        "blood-pressure/white-coat-hypertension",
+        "blood-pressure/blood-pressure-chart-by-category",
+        "blood-pressure/irregular-heartbeat-detection",
+        "blood-pressure/lower-blood-pressure-naturally"
       ]
     },
     {
@@ -354,7 +372,9 @@
         "ekg/overview",
         "ekg/atrial-fibrillation",
         "ekg/heart-palpitations",
-        "ekg/normal-heart-rate-rhythm"
+        "ekg/normal-heart-rate-rhythm",
+        "ekg/heart-attack-vs-arrhythmia",
+        "ekg/when-to-see-a-doctor-heart"
       ]
     },
     {
@@ -362,14 +382,16 @@
       "pages": [
         "pulse-oximeter/overview",
         "pulse-oximeter/normal-oxygen-levels",
-        "pulse-oximeter/copd-asthma-monitoring"
+        "pulse-oximeter/copd-asthma-monitoring",
+        "pulse-oximeter/pulse-oximeter-accuracy-guide"
       ]
     },
     {
       "group": "Thermometers",
       "pages": [
         "thermometer/fever-guide",
-        "thermometer/how-to-take-accurate-temperature"
+        "thermometer/how-to-take-accurate-temperature",
+        "thermometer/fever-in-children-guide"
       ]
     },
     {
