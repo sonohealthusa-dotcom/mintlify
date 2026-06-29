@@ -76,7 +76,8 @@
             "magnesium/benefits-sleep",
             "magnesium/benefits-muscle",
             "magnesium/benefits-stress",
-            "magnesium/benefits-energy"
+            "magnesium/benefits-energy",
+            "magnesium/restless-legs"
           ]
         },
         {
@@ -192,7 +193,8 @@
             "fetal-doppler/questions/when-can-you-hear-heartbeat",
             "fetal-doppler/questions/are-home-fetal-dopplers-safe",
             "fetal-doppler/questions/best-fetal-doppler-for-home-use",
-            "fetal-doppler/questions/what-does-25mhz-mean"
+            "fetal-doppler/questions/what-does-25mhz-mean",
+            "fetal-doppler/heart-rate-gender-myth"
           ]
         },
         {
@@ -200,6 +202,7 @@
           "pages": [
             "fetal-doppler/faq",
             "fetal-doppler/pregnancy-anxiety-between-appointments",
+            "fetal-doppler/after-a-loss",
             "fetal-doppler/reviews",
             "fetal-doppler/troubleshooting",
             "fetal-doppler/for-providers",
@@ -250,7 +253,8 @@
           "group": "Common Questions",
           "pages": [
             "nebulizer/questions/best-nebulizer-for-asthma",
-            "nebulizer/questions/mesh-vs-jet-nebulizer"
+            "nebulizer/questions/mesh-vs-jet-nebulizer",
+            "nebulizer/saline-explained"
           ]
         },
         {
@@ -286,7 +290,8 @@
             "air-purifier/mold-protection",
             "air-purifier/asthma-relief",
             "air-purifier/for-bedrooms",
-            "air-purifier/for-pets"
+            "air-purifier/for-pets",
+            "air-purifier/colds-flu-viruses"
           ]
         },
         {
@@ -330,6 +335,55 @@
             "air-purifier/data"
           ]
         }
+      ]
+    },
+    {
+      "group": "Blood Pressure Monitors",
+      "pages": [
+        "blood-pressure/overview",
+        "blood-pressure/normal-blood-pressure-by-age",
+        "blood-pressure/how-to-measure-at-home",
+        "blood-pressure/high-blood-pressure-when-to-worry",
+        "blood-pressure/upper-arm-vs-wrist",
+        "blood-pressure/white-coat-hypertension"
+      ]
+    },
+    {
+      "group": "EKGraph EKG Monitor",
+      "pages": [
+        "ekg/overview",
+        "ekg/atrial-fibrillation",
+        "ekg/heart-palpitations",
+        "ekg/normal-heart-rate-rhythm"
+      ]
+    },
+    {
+      "group": "Pulse Oximeter",
+      "pages": [
+        "pulse-oximeter/overview",
+        "pulse-oximeter/normal-oxygen-levels",
+        "pulse-oximeter/copd-asthma-monitoring"
+      ]
+    },
+    {
+      "group": "Thermometers",
+      "pages": [
+        "thermometer/fever-guide",
+        "thermometer/how-to-take-accurate-temperature"
+      ]
+    },
+    {
+      "group": "Cowabunga Bovine Colostrum",
+      "pages": [
+        "colostrum/overview",
+        "colostrum/gut-and-immune-health"
+      ]
+    },
+    {
+      "group": "Vitamin D3 + K2",
+      "pages": [
+        "vitamin-d3-k2/overview",
+        "vitamin-d3-k2/vitamin-d-deficiency"
       ]
     }
   ],
