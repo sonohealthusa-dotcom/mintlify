@@ -375,7 +375,12 @@
         "blood-pressure/understanding-systolic-diastolic",
         "blood-pressure/blood-pressure-and-pregnancy",
         "blood-pressure/morning-vs-evening-readings",
-        "blood-pressure/cuff-size-and-accuracy"
+        "blood-pressure/cuff-size-and-accuracy",
+        "blood-pressure/choosing-a-blood-pressure-monitor",
+        "blood-pressure/dash-diet-and-foods",
+        "blood-pressure/stress-and-blood-pressure",
+        "blood-pressure/low-blood-pressure",
+        "blood-pressure/monitoring-for-seniors"
       ]
     },
     {
@@ -389,7 +394,10 @@
         "ekg/when-to-see-a-doctor-heart",
         "ekg/single-lead-vs-12-lead",
         "ekg/personal-ekg-vs-smartwatch",
-        "ekg/how-to-take-a-good-ekg-reading"
+        "ekg/how-to-take-a-good-ekg-reading",
+        "ekg/choosing-a-personal-ekg",
+        "ekg/afib-and-stroke-risk",
+        "ekg/heart-rhythm-disorders-explained"
       ]
     },
     {
@@ -401,7 +409,9 @@
         "pulse-oximeter/pulse-oximeter-accuracy-guide",
         "pulse-oximeter/how-a-pulse-oximeter-works",
         "pulse-oximeter/oxygen-levels-for-children",
-        "pulse-oximeter/oxygen-during-respiratory-illness"
+        "pulse-oximeter/oxygen-during-respiratory-illness",
+        "pulse-oximeter/choosing-a-pulse-oximeter",
+        "pulse-oximeter/oximetry-for-seniors-and-caregivers"
       ]
     },
     {
@@ -412,7 +422,10 @@
         "thermometer/fever-in-children-guide",
         "thermometer/forehead-vs-ear-vs-oral",
         "thermometer/infrared-thermometer-guide",
-        "thermometer/low-body-temperature"
+        "thermometer/low-body-temperature",
+        "thermometer/choosing-a-thermometer",
+        "thermometer/thermometer-types-explained",
+        "thermometer/when-to-worry-fever-adults"
       ]
     },
     {
@@ -431,6 +444,19 @@
         "vitamin-d3-k2/vitamin-d-deficiency",
         "vitamin-d3-k2/why-d3-and-k2-together",
         "vitamin-d3-k2/how-much-vitamin-d"
+      ]
+    },
+    {
+      "group": "Home Health Guides",
+      "pages": [
+        "guides/home-health-monitoring-kit",
+        "guides/heart-health-at-home",
+        "guides/respiratory-health-at-home",
+        "guides/home-devices-for-seniors",
+        "guides/home-devices-for-new-parents",
+        "guides/cold-and-flu-season-kit",
+        "guides/fda-cleared-vs-approved",
+        "guides/buying-health-devices-online"
       ]
     }
   ],
