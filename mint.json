@@ -77,7 +77,8 @@
             "magnesium/benefits-muscle",
             "magnesium/benefits-stress",
             "magnesium/benefits-energy",
-            "magnesium/restless-legs"
+            "magnesium/restless-legs",
+            "magnesium/magnesium-for-migraines"
           ]
         },
         {
@@ -87,7 +88,8 @@
             "magnesium/who-needs-it",
             "magnesium/dosage-guide",
             "magnesium/magnesium-and-vitamin-d",
-            "magnesium/safety"
+            "magnesium/safety",
+            "magnesium/magnesium-and-medication-interactions"
           ]
         },
         {
@@ -170,6 +172,8 @@
             "fetal-doppler/twins-and-multiples",
             "fetal-doppler/reduced-movement-what-to-do",
             "fetal-doppler/gel-guide",
+            "fetal-doppler/heartbeat-sounds-explained",
+            "fetal-doppler/posterior-tilted-uterus-guide",
             "fetal-doppler/for-parents"
           ]
         },
@@ -246,7 +250,8 @@
           "group": "Using Your Nebulizer",
           "pages": [
             "nebulizer/cleaning-guide",
-            "nebulizer/travel-use"
+            "nebulizer/travel-use",
+            "nebulizer/nebulizer-side-effects"
           ]
         },
         {
@@ -255,6 +260,7 @@
             "nebulizer/portable-nebulizer-buying-guide",
             "nebulizer/vs-competitors",
             "nebulizer/vs-inhaler",
+            "nebulizer/nebulizer-vs-steam-inhaler",
             "nebulizer/guarantee",
             "nebulizer/buy"
           ]
@@ -314,7 +320,9 @@
             "air-purifier/room-coverage",
             "air-purifier/cadr-vs-ach-explained",
             "air-purifier/smart-features",
-            "air-purifier/filter-replacement"
+            "air-purifier/filter-replacement",
+            "air-purifier/where-to-place-an-air-purifier",
+            "air-purifier/air-purifier-running-costs"
           ]
         },
         {
@@ -363,7 +371,11 @@
         "blood-pressure/white-coat-hypertension",
         "blood-pressure/blood-pressure-chart-by-category",
         "blood-pressure/irregular-heartbeat-detection",
-        "blood-pressure/lower-blood-pressure-naturally"
+        "blood-pressure/lower-blood-pressure-naturally",
+        "blood-pressure/understanding-systolic-diastolic",
+        "blood-pressure/blood-pressure-and-pregnancy",
+        "blood-pressure/morning-vs-evening-readings",
+        "blood-pressure/cuff-size-and-accuracy"
       ]
     },
     {
@@ -374,7 +386,10 @@
         "ekg/heart-palpitations",
         "ekg/normal-heart-rate-rhythm",
         "ekg/heart-attack-vs-arrhythmia",
-        "ekg/when-to-see-a-doctor-heart"
+        "ekg/when-to-see-a-doctor-heart",
+        "ekg/single-lead-vs-12-lead",
+        "ekg/personal-ekg-vs-smartwatch",
+        "ekg/how-to-take-a-good-ekg-reading"
       ]
     },
     {
@@ -383,7 +398,10 @@
         "pulse-oximeter/overview",
         "pulse-oximeter/normal-oxygen-levels",
         "pulse-oximeter/copd-asthma-monitoring",
-        "pulse-oximeter/pulse-oximeter-accuracy-guide"
+        "pulse-oximeter/pulse-oximeter-accuracy-guide",
+        "pulse-oximeter/how-a-pulse-oximeter-works",
+        "pulse-oximeter/oxygen-levels-for-children",
+        "pulse-oximeter/oxygen-during-respiratory-illness"
       ]
     },
     {
@@ -391,21 +409,28 @@
       "pages": [
         "thermometer/fever-guide",
         "thermometer/how-to-take-accurate-temperature",
-        "thermometer/fever-in-children-guide"
+        "thermometer/fever-in-children-guide",
+        "thermometer/forehead-vs-ear-vs-oral",
+        "thermometer/infrared-thermometer-guide",
+        "thermometer/low-body-temperature"
       ]
     },
     {
       "group": "Cowabunga Bovine Colostrum",
       "pages": [
         "colostrum/overview",
-        "colostrum/gut-and-immune-health"
+        "colostrum/gut-and-immune-health",
+        "colostrum/bovine-colostrum-vs-whey",
+        "colostrum/how-to-take-colostrum"
       ]
     },
     {
       "group": "Vitamin D3 + K2",
       "pages": [
         "vitamin-d3-k2/overview",
-        "vitamin-d3-k2/vitamin-d-deficiency"
+        "vitamin-d3-k2/vitamin-d-deficiency",
+        "vitamin-d3-k2/why-d3-and-k2-together",
+        "vitamin-d3-k2/how-much-vitamin-d"
       ]
     }
   ],
