@@ -181,6 +181,7 @@
           "group": "Compare & Buy",
           "pages": [
             "fetal-doppler/choosing-a-fetal-doppler",
+            "fetal-doppler/is-a-fetal-doppler-worth-it",
             "fetal-doppler/vs-competitors",
             "fetal-doppler/vs-clinical-grade",
             "fetal-doppler/baby-heartbeat-gifts",
@@ -194,7 +195,9 @@
           "pages": [
             "fetal-doppler/compare/sonohealth-vs-sonoline-c",
             "fetal-doppler/compare/sonohealth-vs-3mhz-dopplers",
-            "fetal-doppler/compare/sonohealth-vs-generic-home-dopplers"
+            "fetal-doppler/compare/sonohealth-vs-generic-home-dopplers",
+            "fetal-doppler/compare/sonohealth-vs-wearable-pregnancy-monitors",
+            "fetal-doppler/compare/fetal-doppler-vs-keepsake-ultrasound"
           ]
         },
         {
@@ -329,6 +332,8 @@
           "group": "Compare & Buy",
           "pages": [
             "air-purifier/vs-competitors",
+            "air-purifier/hepa-14-vs-true-hepa",
+            "air-purifier/hepa-vs-ionizer-air-purifiers",
             "air-purifier/guarantee",
             "air-purifier/buy"
           ]
@@ -338,6 +343,8 @@
           "pages": [
             "air-purifier/best-hepa-14-air-purifier",
             "air-purifier/best-air-purifier-for-allergies",
+            "air-purifier/best-air-purifier-for-large-rooms",
+            "air-purifier/best-air-purifier-for-smoke",
             "air-purifier/best-air-purifier-under-200"
           ]
         },
