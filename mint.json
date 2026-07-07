@@ -202,7 +202,9 @@
             "fetal-doppler/compare/sonohealth-vs-3mhz-dopplers",
             "fetal-doppler/compare/sonohealth-vs-generic-home-dopplers",
             "fetal-doppler/compare/sonohealth-vs-wearable-pregnancy-monitors",
-            "fetal-doppler/compare/fetal-doppler-vs-keepsake-ultrasound"
+            "fetal-doppler/compare/fetal-doppler-vs-keepsake-ultrasound",
+            "fetal-doppler/compare/fetal-doppler-vs-baby-heartbeat-apps",
+            "fetal-doppler/compare/fetal-doppler-vs-stethoscope"
           ]
         },
         {
@@ -213,6 +215,7 @@
             "fetal-doppler/questions/are-home-fetal-dopplers-safe",
             "fetal-doppler/questions/best-fetal-doppler-for-home-use",
             "fetal-doppler/questions/what-does-25mhz-mean",
+            "fetal-doppler/questions/best-fetal-doppler-for-plus-size",
             "fetal-doppler/heart-rate-gender-myth"
           ]
         },
