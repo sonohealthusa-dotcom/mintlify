@@ -251,6 +251,7 @@
             "nebulizer/conditions-treated",
             "nebulizer/asthma-relief",
             "nebulizer/copd-management",
+            "nebulizer/best-nebulizer-for-copd",
             "nebulizer/for-infants",
             "nebulizer/medications-compatible",
             "nebulizer/nebulizer-for-kids-guide",
@@ -270,8 +271,10 @@
           "pages": [
             "nebulizer/portable-nebulizer-buying-guide",
             "nebulizer/vs-competitors",
+            "nebulizer/mistpro-vs-omron-microair",
             "nebulizer/vs-inhaler",
             "nebulizer/nebulizer-vs-steam-inhaler",
+            "nebulizer/nebulizer-vs-humidifier",
             "nebulizer/guarantee",
             "nebulizer/buy"
           ]
