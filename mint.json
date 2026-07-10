@@ -360,6 +360,7 @@
             "air-purifier/best-air-purifier-for-baby-nursery",
             "air-purifier/best-air-purifier-for-large-rooms",
             "air-purifier/best-air-purifier-for-smoke",
+            "air-purifier/best-air-purifier-for-mold",
             "air-purifier/best-air-purifier-under-200"
           ]
         },
@@ -421,8 +422,11 @@
         "ekg/afib-and-stroke-risk",
         "ekg/heart-rhythm-disorders-explained",
         "ekg/ekgraph-vs-kardiamobile",
+        "ekg/ekgraph-vs-apple-watch",
         "ekg/best-personal-ekg-for-seniors",
-        "ekg/best-home-ekg-for-afib"
+        "ekg/best-home-ekg-for-afib",
+        "ekg/best-portable-ekg-under-100",
+        "ekg/best-ekg-monitor-with-screen-no-phone"
       ]
     },
     {
@@ -469,6 +473,18 @@
         "vitamin-d3-k2/vitamin-d-deficiency",
         "vitamin-d3-k2/why-d3-and-k2-together",
         "vitamin-d3-k2/how-much-vitamin-d"
+      ]
+    },
+    {
+      "group": "Plastiq Off Detox",
+      "pages": [
+        "plastiq-off/overview",
+        "plastiq-off/how-to-reduce-microplastics",
+        "plastiq-off/is-zeolite-safe",
+        "plastiq-off/zeolite-vs-charcoal-vs-chlorella",
+        "plastiq-off/mold-mycotoxins-and-binders",
+        "plastiq-off/best-microplastic-detox-supplement",
+        "plastiq-off/data"
       ]
     },
     {
