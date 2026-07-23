@@ -348,6 +348,10 @@
             "air-purifier/airpro-vs-dyson",
             "air-purifier/airpro-vs-winix",
             "air-purifier/airpro-vs-blueair",
+            "air-purifier/airpro-vs-medify",
+            "air-purifier/airpro-vs-alen",
+            "air-purifier/airpro-vs-honeywell",
+            "air-purifier/airpro-vs-germguardian",
             "air-purifier/hepa-14-vs-true-hepa",
             "air-purifier/hepa-vs-ionizer-air-purifiers",
             "air-purifier/guarantee",
@@ -363,7 +367,9 @@
             "air-purifier/best-air-purifier-for-large-rooms",
             "air-purifier/best-air-purifier-for-smoke",
             "air-purifier/best-air-purifier-for-mold",
-            "air-purifier/best-air-purifier-under-200"
+            "air-purifier/best-air-purifier-under-200",
+            "air-purifier/best-air-purifier-for-asthma",
+            "air-purifier/best-air-purifier-for-vocs"
           ]
         },
         {
@@ -485,11 +491,20 @@
       "pages": [
         "plastiq-off/overview",
         "plastiq-off/how-to-reduce-microplastics",
+        "plastiq-off/reduce-microplastics-in-drinking-water",
+        "plastiq-off/microplastics-in-food",
+        "plastiq-off/are-microplastics-harmful",
         "plastiq-off/is-zeolite-safe",
         "plastiq-off/zeolite-aluminum-safety",
         "plastiq-off/zeolite-vs-charcoal-vs-chlorella",
+        "plastiq-off/zeolite-vs-bentonite-clay",
+        "plastiq-off/zeolite-vs-diatomaceous-earth",
+        "plastiq-off/detox-binders-compared",
         "plastiq-off/liquid-vs-capsule-zeolite",
         "plastiq-off/mold-mycotoxins-and-binders",
+        "plastiq-off/do-detox-binders-work",
+        "plastiq-off/microplastics-and-the-brain",
+        "plastiq-off/how-to-take-plastiq-off",
         "plastiq-off/best-microplastic-detox-supplement",
         "plastiq-off/best-zeolite-supplement-with-b12",
         "plastiq-off/data"
