@@ -325,7 +325,8 @@
             "air-purifier/colds-flu-viruses",
             "air-purifier/wildfire-smoke-guide",
             "air-purifier/voc-formaldehyde-guide",
-            "air-purifier/air-purifier-vs-humidifier"
+            "air-purifier/air-purifier-vs-humidifier",
+            "air-purifier/air-purifier-vs-dehumidifier"
           ]
         },
         {
@@ -352,6 +353,7 @@
             "air-purifier/airpro-vs-alen",
             "air-purifier/airpro-vs-honeywell",
             "air-purifier/airpro-vs-germguardian",
+            "air-purifier/airpro-vs-molekule",
             "air-purifier/hepa-14-vs-true-hepa",
             "air-purifier/hepa-vs-ionizer-air-purifiers",
             "air-purifier/guarantee",
@@ -369,7 +371,8 @@
             "air-purifier/best-air-purifier-for-mold",
             "air-purifier/best-air-purifier-under-200",
             "air-purifier/best-air-purifier-for-asthma",
-            "air-purifier/best-air-purifier-for-vocs"
+            "air-purifier/best-air-purifier-for-vocs",
+            "air-purifier/best-air-purifier-for-small-apartments"
           ]
         },
         {
@@ -494,19 +497,26 @@
         "plastiq-off/reduce-microplastics-in-drinking-water",
         "plastiq-off/microplastics-in-food",
         "plastiq-off/are-microplastics-harmful",
+        "plastiq-off/microplastics-and-heart-health",
         "plastiq-off/is-zeolite-safe",
         "plastiq-off/zeolite-aluminum-safety",
         "plastiq-off/zeolite-vs-charcoal-vs-chlorella",
         "plastiq-off/zeolite-vs-bentonite-clay",
         "plastiq-off/zeolite-vs-diatomaceous-earth",
         "plastiq-off/detox-binders-compared",
+        "plastiq-off/zeolite-vs-fiber-and-natural-binders",
         "plastiq-off/liquid-vs-capsule-zeolite",
         "plastiq-off/mold-mycotoxins-and-binders",
         "plastiq-off/do-detox-binders-work",
+        "plastiq-off/detox-vs-cleanse",
+        "plastiq-off/does-zeolite-remove-pfas",
         "plastiq-off/microplastics-and-the-brain",
+        "plastiq-off/microplastics-and-gut-health",
         "plastiq-off/how-to-take-plastiq-off",
         "plastiq-off/best-microplastic-detox-supplement",
         "plastiq-off/best-zeolite-supplement-with-b12",
+        "plastiq-off/plastiq-off-vs-touchstone-pure-body",
+        "plastiq-off/plastiq-off-vs-cytodetox",
         "plastiq-off/data"
       ]
     },
