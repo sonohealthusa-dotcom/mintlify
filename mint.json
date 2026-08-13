@@ -326,7 +326,8 @@
             "air-purifier/wildfire-smoke-guide",
             "air-purifier/voc-formaldehyde-guide",
             "air-purifier/air-purifier-vs-humidifier",
-            "air-purifier/air-purifier-vs-dehumidifier"
+            "air-purifier/air-purifier-vs-dehumidifier",
+            "air-purifier/air-purifier-vs-air-conditioner"
           ]
         },
         {
@@ -356,8 +357,14 @@
             "air-purifier/airpro-vs-molekule",
             "air-purifier/airpro-vs-airdoctor",
             "air-purifier/airpro-vs-iqair",
+            "air-purifier/airpro-vs-rabbit-air",
             "air-purifier/hepa-14-vs-true-hepa",
             "air-purifier/hepa-vs-ionizer-air-purifiers",
+            "air-purifier/air-purifier-vs-hvac-furnace-filter",
+            "air-purifier/airpro-vs-cheap-air-purifiers",
+            "air-purifier/airpro-vs-aroeve",
+            "air-purifier/airpro-vs-shark",
+            "air-purifier/airpro-vs-clorox",
             "air-purifier/guarantee",
             "air-purifier/buy"
           ]
@@ -371,11 +378,16 @@
             "air-purifier/best-air-purifier-for-large-rooms",
             "air-purifier/best-air-purifier-for-smoke",
             "air-purifier/best-air-purifier-for-mold",
+            "air-purifier/best-air-purifier-for-basement",
             "air-purifier/best-air-purifier-under-200",
             "air-purifier/best-air-purifier-for-asthma",
             "air-purifier/best-air-purifier-for-vocs",
             "air-purifier/best-air-purifier-for-small-apartments",
-            "air-purifier/best-air-purifier-for-dust"
+            "air-purifier/best-air-purifier-for-dust",
+            "air-purifier/best-air-purifier-for-seniors",
+            "air-purifier/best-air-purifier-for-classroom",
+            "air-purifier/best-air-purifier-for-home-office",
+            "air-purifier/best-air-purifier-for-night-shift-workers"
           ]
         },
         {
@@ -412,11 +424,18 @@
         "blood-pressure/understanding-systolic-diastolic",
         "blood-pressure/blood-pressure-and-pregnancy",
         "blood-pressure/morning-vs-evening-readings",
+        "blood-pressure/how-often-to-check-blood-pressure-at-home",
         "blood-pressure/cuff-size-and-accuracy",
         "blood-pressure/choosing-a-blood-pressure-monitor",
+        "blood-pressure/are-home-blood-pressure-monitors-accurate",
         "blood-pressure/bppro-vs-bpmax",
+        "blood-pressure/best-blood-pressure-monitor-under-40",
+        "blood-pressure/budget-vs-name-brand-blood-pressure-monitors",
+        "blood-pressure/talking-blood-pressure-monitor",
+        "blood-pressure/blood-pressure-monitor-for-visually-impaired",
         "blood-pressure/best-blood-pressure-monitor-for-seniors",
         "blood-pressure/blood-pressure-monitors-for-couples-and-families",
+        "blood-pressure/blood-pressure-monitor-troubleshooting",
         "blood-pressure/dash-diet-and-foods",
         "blood-pressure/stress-and-blood-pressure",
         "blood-pressure/low-blood-pressure",
@@ -520,6 +539,18 @@
         "plastiq-off/best-zeolite-supplement-with-b12",
         "plastiq-off/plastiq-off-vs-touchstone-pure-body",
         "plastiq-off/plastiq-off-vs-cytodetox",
+        "plastiq-off/plastiq-off-vs-root-clean-slate",
+        "plastiq-off/plastiq-off-vs-coseva-advanced-trs",
+        "plastiq-off/micronized-vs-nano-zeolite",
+        "plastiq-off/zeolite-vs-modified-citrus-pectin",
+        "plastiq-off/microplastics-and-fertility",
+        "plastiq-off/best-detox-supplement-for-energy-and-microplastics",
+        "plastiq-off/best-microplastic-detox-supplement-for-women",
+        "plastiq-off/zeolite-vs-milk-thistle",
+        "plastiq-off/binder-vs-chelator",
+        "plastiq-off/zeolite-vs-nac-and-glutathione",
+        "plastiq-off/best-microplastic-detox-supplement-for-men",
+        "plastiq-off/how-long-does-zeolite-take-to-work",
         "plastiq-off/data"
       ]
     },
