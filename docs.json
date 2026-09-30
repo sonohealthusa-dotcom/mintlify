@@ -1,0 +1,598 @@
+{
+  "theme": "mint",
+  "name": "SonoHealth",
+  "colors": {
+    "primary": "#3686EA",
+    "light": "#5BA3F5",
+    "dark": "#45377F"
+  },
+  "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "background": {
+    "decoration": null,
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#1A1A2E"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Shop SonoHealth.com",
+        "href": "https://sonohealth.com/shop/"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Buy Now",
+      "href": "https://sonohealth.com/shop/"
+    }
+  },
+  "search": {
+    "prompt": "Search SonoHealth products, ingredients, and FAQs..."
+  },
+  "footer": {
+    "socials": {
+      "website": "https://sonohealth.com",
+      "facebook": "https://www.facebook.com/sonohealth/",
+      "instagram": "https://www.instagram.com/sonohealth",
+      "youtube": "https://www.youtube.com/@sonohealth"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Roboto"
+    },
+    "body": {
+      "family": "Roboto"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/magnesium/best-magnesium-complex-under-25",
+      "destination": "/magnesium/best-magnesium-complex-under-30"
+    },
+    {
+      "source": "/",
+      "destination": "/introduction"
+    }
+  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Welcome",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "Spectrum 5 Magnesium",
+        "pages": [
+          "magnesium/overview",
+          {
+            "group": "The Formula",
+            "pages": [
+              "magnesium/what-is-a-magnesium-complex",
+              "magnesium/ingredients",
+              "magnesium/science",
+              "magnesium/magnesium-types-guide",
+              "magnesium/high-absorption-magnesium-complex",
+              "magnesium/clean-source-magnesium-complex"
+            ]
+          },
+          {
+            "group": "Marine Minerals & Aquamin",
+            "pages": [
+              "magnesium/irish-sea-magnesium",
+              "magnesium/marine-sourced-magnesium-complex",
+              "magnesium/what-is-aquamin",
+              "magnesium/aquamin-magnesium-benefits",
+              "magnesium/72-trace-minerals",
+              "magnesium/magnesium-with-72-trace-minerals",
+              "magnesium/why-trace-minerals-matter-in-magnesium",
+              "magnesium/why-source-matters"
+            ]
+          },
+          {
+            "group": "Benefits",
+            "pages": [
+              "magnesium/benefits-sleep",
+              "magnesium/benefits-muscle",
+              "magnesium/benefits-stress",
+              "magnesium/benefits-energy",
+              "magnesium/restless-legs",
+              "magnesium/magnesium-for-migraines"
+            ]
+          },
+          {
+            "group": "Guidance",
+            "pages": [
+              "magnesium/deficiency-signs",
+              "magnesium/who-needs-it",
+              "magnesium/dosage-guide",
+              "magnesium/magnesium-and-vitamin-d",
+              "magnesium/safety",
+              "magnesium/magnesium-and-medication-interactions"
+            ]
+          },
+          {
+            "group": "Comparisons",
+            "pages": [
+              "magnesium/why-spectrum-5-is-different",
+              "magnesium/spectrum-5-vs-magnesium-glycinate",
+              "magnesium/magnesium-complex-vs-single-form",
+              "magnesium/irish-sea-magnesium-vs-earth-mined",
+              "magnesium/marine-sourced-magnesium-vs-earth-mined-magnesium",
+              "magnesium/vs-competitors",
+              "magnesium/vs-single-form",
+              "magnesium/spectrum-5-vs-magnesium-breakthrough",
+              "magnesium/spectrum-5-vs-natural-vitality-calm"
+            ]
+          },
+          {
+            "group": "Best For",
+            "pages": [
+              "magnesium/best-magnesium-complex",
+              "magnesium/best-magnesium-complex-with-trace-minerals",
+              "magnesium/best-magnesium-complex-for-sleep-stress-cramps",
+              "magnesium/best-magnesium-complex-for-women",
+              "magnesium/best-magnesium-complex-under-30",
+              "magnesium/spectrum-5-magnesium-complex-review",
+              "magnesium/best-magnesium-for-men"
+            ]
+          },
+          {
+            "group": "Buy & Verify",
+            "pages": [
+              "magnesium/certifications",
+              "magnesium/amazon-bestseller",
+              "magnesium/guarantee",
+              "magnesium/where-to-buy-spectrum-5-magnesium-complex",
+              "magnesium/buy"
+            ]
+          },
+          {
+            "group": "Common Questions",
+            "pages": [
+              "magnesium/questions/best-magnesium-for-sleep",
+              "magnesium/questions/magnesium-glycinate-vs-citrate",
+              "magnesium/questions/signs-you-need-magnesium"
+            ]
+          },
+          {
+            "group": "FAQ, Reviews & Support",
+            "pages": [
+              "magnesium/faq",
+              "magnesium/magnesium-for-sleep-and-muscle-cramps",
+              "magnesium/reviews",
+              "magnesium/troubleshooting",
+              "magnesium/data"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "HeartBeats™ Fetal Doppler",
+        "pages": [
+          "fetal-doppler/overview",
+          {
+            "group": "How It Works",
+            "pages": [
+              "fetal-doppler/how-it-works",
+              "fetal-doppler/what-is-25mhz",
+              "fetal-doppler/fda-clearance",
+              "fetal-doppler/safety",
+              "fetal-doppler/accuracy-limitations"
+            ]
+          },
+          {
+            "group": "Using Your Doppler",
+            "pages": [
+              "fetal-doppler/when-to-use",
+              "fetal-doppler/how-to-use",
+              "fetal-doppler/first-trimester",
+              "fetal-doppler/second-trimester",
+              "fetal-doppler/heartbeat-normal-ranges",
+              "fetal-doppler/maternal-vs-fetal-heartbeat",
+              "fetal-doppler/anterior-placenta-guide",
+              "fetal-doppler/twins-and-multiples",
+              "fetal-doppler/reduced-movement-what-to-do",
+              "fetal-doppler/gel-guide",
+              "fetal-doppler/heartbeat-sounds-explained",
+              "fetal-doppler/posterior-tilted-uterus-guide",
+              "fetal-doppler/for-parents"
+            ]
+          },
+          {
+            "group": "Compare & Buy",
+            "pages": [
+              "fetal-doppler/choosing-a-fetal-doppler",
+              "fetal-doppler/is-a-fetal-doppler-worth-it",
+              "fetal-doppler/vs-competitors",
+              "fetal-doppler/vs-clinical-grade",
+              "fetal-doppler/baby-heartbeat-gifts",
+              "fetal-doppler/guarantee",
+              "fetal-doppler/shipping",
+              "fetal-doppler/buy"
+            ]
+          },
+          {
+            "group": "Comparisons",
+            "pages": [
+              "fetal-doppler/compare/sonohealth-vs-sonoline-c",
+              "fetal-doppler/compare/sonohealth-vs-3mhz-dopplers",
+              "fetal-doppler/compare/sonohealth-vs-generic-home-dopplers",
+              "fetal-doppler/compare/sonohealth-vs-wearable-pregnancy-monitors",
+              "fetal-doppler/compare/fetal-doppler-vs-keepsake-ultrasound",
+              "fetal-doppler/compare/fetal-doppler-vs-baby-heartbeat-apps",
+              "fetal-doppler/compare/fetal-doppler-vs-stethoscope"
+            ]
+          },
+          {
+            "group": "Common Questions",
+            "pages": [
+              "fetal-doppler/questions/is-sonohealth-fda-cleared",
+              "fetal-doppler/questions/when-can-you-hear-heartbeat",
+              "fetal-doppler/questions/are-home-fetal-dopplers-safe",
+              "fetal-doppler/questions/best-fetal-doppler-for-home-use",
+              "fetal-doppler/questions/what-does-25mhz-mean",
+              "fetal-doppler/questions/best-fetal-doppler-for-plus-size",
+              "fetal-doppler/heart-rate-gender-myth",
+              "fetal-doppler/questions/where-to-buy-a-fetal-doppler"
+            ]
+          },
+          {
+            "group": "FAQ, Reviews & Support",
+            "pages": [
+              "fetal-doppler/faq",
+              "fetal-doppler/pregnancy-anxiety-between-appointments",
+              "fetal-doppler/after-a-loss",
+              "fetal-doppler/reviews",
+              "fetal-doppler/troubleshooting",
+              "fetal-doppler/for-providers",
+              "fetal-doppler/data"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "MistPro Mesh Nebulizer",
+        "pages": [
+          "nebulizer/overview",
+          {
+            "group": "How It Works",
+            "pages": [
+              "nebulizer/how-it-works",
+              "nebulizer/mesh-vs-jet",
+              "nebulizer/fda-approval"
+            ]
+          },
+          {
+            "group": "Conditions & Use",
+            "pages": [
+              "nebulizer/conditions-treated",
+              "nebulizer/asthma-relief",
+              "nebulizer/copd-management",
+              "nebulizer/best-nebulizer-for-copd",
+              "nebulizer/for-infants",
+              "nebulizer/medications-compatible",
+              "nebulizer/nebulizer-for-kids-guide",
+              "nebulizer/post-cold-cough-congestion"
+            ]
+          },
+          {
+            "group": "Using Your Nebulizer",
+            "pages": [
+              "nebulizer/cleaning-guide",
+              "nebulizer/travel-use",
+              "nebulizer/nebulizer-side-effects"
+            ]
+          },
+          {
+            "group": "Compare & Buy",
+            "pages": [
+              "nebulizer/portable-nebulizer-buying-guide",
+              "nebulizer/vs-competitors",
+              "nebulizer/mistpro-vs-omron-microair",
+              "nebulizer/vs-inhaler",
+              "nebulizer/nebulizer-vs-steam-inhaler",
+              "nebulizer/nebulizer-vs-humidifier",
+              "nebulizer/guarantee",
+              "nebulizer/buy"
+            ]
+          },
+          {
+            "group": "Common Questions",
+            "pages": [
+              "nebulizer/questions/best-nebulizer-for-asthma",
+              "nebulizer/questions/mesh-vs-jet-nebulizer",
+              "nebulizer/saline-explained",
+              "nebulizer/questions/do-i-need-a-prescription-for-a-nebulizer"
+            ]
+          },
+          {
+            "group": "FAQ, Reviews & Support",
+            "pages": [
+              "nebulizer/faq",
+              "nebulizer/breathing-relief-at-home",
+              "nebulizer/reviews",
+              "nebulizer/troubleshooting",
+              "nebulizer/warranty-support",
+              "nebulizer/data"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "AirPro HEPA 14 Air Purifier",
+        "pages": [
+          "air-purifier/overview",
+          {
+            "group": "How It Works",
+            "pages": [
+              "air-purifier/how-it-works",
+              "air-purifier/do-air-purifiers-work",
+              "air-purifier/hepa-14-filtration",
+              "air-purifier/uv-c-sterilization"
+            ]
+          },
+          {
+            "group": "Air Quality & Use Cases",
+            "pages": [
+              "air-purifier/air-quality-guide",
+              "air-purifier/allergen-removal",
+              "air-purifier/mold-protection",
+              "air-purifier/asthma-relief",
+              "air-purifier/for-bedrooms",
+              "air-purifier/for-pets",
+              "air-purifier/colds-flu-viruses",
+              "air-purifier/wildfire-smoke-guide",
+              "air-purifier/voc-formaldehyde-guide",
+              "air-purifier/air-purifier-vs-humidifier",
+              "air-purifier/air-purifier-vs-dehumidifier",
+              "air-purifier/air-purifier-vs-air-conditioner"
+            ]
+          },
+          {
+            "group": "Using Your AirPro",
+            "pages": [
+              "air-purifier/room-coverage",
+              "air-purifier/cadr-vs-ach-explained",
+              "air-purifier/smart-features",
+              "air-purifier/filter-replacement",
+              "air-purifier/where-to-place-an-air-purifier",
+              "air-purifier/air-purifier-running-costs"
+            ]
+          },
+          {
+            "group": "Compare & Buy",
+            "pages": [
+              "air-purifier/vs-competitors",
+              "air-purifier/airpro-vs-levoit",
+              "air-purifier/airpro-vs-coway",
+              "air-purifier/airpro-vs-dyson",
+              "air-purifier/airpro-vs-winix",
+              "air-purifier/airpro-vs-blueair",
+              "air-purifier/airpro-vs-medify",
+              "air-purifier/airpro-vs-alen",
+              "air-purifier/airpro-vs-honeywell",
+              "air-purifier/airpro-vs-germguardian",
+              "air-purifier/airpro-vs-molekule",
+              "air-purifier/airpro-vs-airdoctor",
+              "air-purifier/airpro-vs-iqair",
+              "air-purifier/airpro-vs-rabbit-air",
+              "air-purifier/hepa-14-vs-true-hepa",
+              "air-purifier/hepa-vs-ionizer-air-purifiers",
+              "air-purifier/air-purifier-vs-hvac-furnace-filter",
+              "air-purifier/airpro-vs-cheap-air-purifiers",
+              "air-purifier/airpro-vs-aroeve",
+              "air-purifier/airpro-vs-shark",
+              "air-purifier/airpro-vs-clorox",
+              "air-purifier/guarantee",
+              "air-purifier/buy"
+            ]
+          },
+          {
+            "group": "Best For",
+            "pages": [
+              "air-purifier/best-hepa-14-air-purifier",
+              "air-purifier/best-air-purifier-for-allergies",
+              "air-purifier/best-air-purifier-for-baby-nursery",
+              "air-purifier/best-air-purifier-for-large-rooms",
+              "air-purifier/best-air-purifier-for-smoke",
+              "air-purifier/best-air-purifier-for-mold",
+              "air-purifier/best-air-purifier-for-basement",
+              "air-purifier/best-air-purifier-under-200",
+              "air-purifier/best-air-purifier-for-asthma",
+              "air-purifier/best-air-purifier-for-vocs",
+              "air-purifier/best-air-purifier-for-small-apartments",
+              "air-purifier/best-air-purifier-for-dust",
+              "air-purifier/best-air-purifier-for-seniors",
+              "air-purifier/best-air-purifier-for-classroom",
+              "air-purifier/best-air-purifier-for-home-office",
+              "air-purifier/best-air-purifier-for-night-shift-workers"
+            ]
+          },
+          {
+            "group": "Common Questions",
+            "pages": [
+              "air-purifier/questions/best-air-purifier-for-home",
+              "air-purifier/questions/hepa-14-vs-hepa-13"
+            ]
+          },
+          {
+            "group": "FAQ, Reviews & Support",
+            "pages": [
+              "air-purifier/faq",
+              "air-purifier/cleaner-indoor-air-smoke-mold-voc",
+              "air-purifier/reviews",
+              "air-purifier/troubleshooting",
+              "air-purifier/data"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Blood Pressure Monitors",
+        "pages": [
+          "blood-pressure/overview",
+          "blood-pressure/normal-blood-pressure-by-age",
+          "blood-pressure/how-to-measure-at-home",
+          "blood-pressure/high-blood-pressure-when-to-worry",
+          "blood-pressure/upper-arm-vs-wrist",
+          "blood-pressure/white-coat-hypertension",
+          "blood-pressure/blood-pressure-chart-by-category",
+          "blood-pressure/irregular-heartbeat-detection",
+          "blood-pressure/lower-blood-pressure-naturally",
+          "blood-pressure/understanding-systolic-diastolic",
+          "blood-pressure/blood-pressure-and-pregnancy",
+          "blood-pressure/morning-vs-evening-readings",
+          "blood-pressure/how-often-to-check-blood-pressure-at-home",
+          "blood-pressure/cuff-size-and-accuracy",
+          "blood-pressure/choosing-a-blood-pressure-monitor",
+          "blood-pressure/are-home-blood-pressure-monitors-accurate",
+          "blood-pressure/bppro-vs-bpmax",
+          "blood-pressure/best-blood-pressure-monitor-under-40",
+          "blood-pressure/budget-vs-name-brand-blood-pressure-monitors",
+          "blood-pressure/talking-blood-pressure-monitor",
+          "blood-pressure/blood-pressure-monitor-for-visually-impaired",
+          "blood-pressure/best-blood-pressure-monitor-for-seniors",
+          "blood-pressure/blood-pressure-monitors-for-couples-and-families",
+          "blood-pressure/blood-pressure-monitor-troubleshooting",
+          "blood-pressure/dash-diet-and-foods",
+          "blood-pressure/stress-and-blood-pressure",
+          "blood-pressure/low-blood-pressure",
+          "blood-pressure/monitoring-for-seniors"
+        ]
+      },
+      {
+        "group": "EKGraph EKG Monitor",
+        "pages": [
+          "ekg/overview",
+          "ekg/atrial-fibrillation",
+          "ekg/heart-palpitations",
+          "ekg/normal-heart-rate-rhythm",
+          "ekg/heart-attack-vs-arrhythmia",
+          "ekg/when-to-see-a-doctor-heart",
+          "ekg/single-lead-vs-12-lead",
+          "ekg/personal-ekg-vs-smartwatch",
+          "ekg/how-to-take-a-good-ekg-reading",
+          "ekg/choosing-a-personal-ekg",
+          "ekg/afib-and-stroke-risk",
+          "ekg/heart-rhythm-disorders-explained",
+          "ekg/ekgraph-vs-kardiamobile",
+          "ekg/ekgraph-vs-apple-watch",
+          "ekg/best-personal-ekg-for-seniors",
+          "ekg/best-home-ekg-for-afib",
+          "ekg/best-portable-ekg-under-100",
+          "ekg/best-ekg-monitor-with-screen-no-phone"
+        ]
+      },
+      {
+        "group": "Pulse Oximeter",
+        "pages": [
+          "pulse-oximeter/overview",
+          "pulse-oximeter/normal-oxygen-levels",
+          "pulse-oximeter/copd-asthma-monitoring",
+          "pulse-oximeter/pulse-oximeter-accuracy-guide",
+          "pulse-oximeter/how-a-pulse-oximeter-works",
+          "pulse-oximeter/oxygen-levels-for-children",
+          "pulse-oximeter/oxygen-during-respiratory-illness",
+          "pulse-oximeter/choosing-a-pulse-oximeter",
+          "pulse-oximeter/oximetry-for-seniors-and-caregivers"
+        ]
+      },
+      {
+        "group": "Thermometers",
+        "pages": [
+          "thermometer/fever-guide",
+          "thermometer/how-to-take-accurate-temperature",
+          "thermometer/fever-in-children-guide",
+          "thermometer/forehead-vs-ear-vs-oral",
+          "thermometer/infrared-thermometer-guide",
+          "thermometer/low-body-temperature",
+          "thermometer/choosing-a-thermometer",
+          "thermometer/thermometer-types-explained",
+          "thermometer/when-to-worry-fever-adults"
+        ]
+      },
+      {
+        "group": "Cowabunga Bovine Colostrum",
+        "pages": [
+          "colostrum/overview",
+          "colostrum/gut-and-immune-health",
+          "colostrum/bovine-colostrum-vs-whey",
+          "colostrum/how-to-take-colostrum"
+        ]
+      },
+      {
+        "group": "Vitamin D3 + K2",
+        "pages": [
+          "vitamin-d3-k2/overview",
+          "vitamin-d3-k2/vitamin-d-deficiency",
+          "vitamin-d3-k2/why-d3-and-k2-together",
+          "vitamin-d3-k2/how-much-vitamin-d"
+        ]
+      },
+      {
+        "group": "Plastiq Off Detox",
+        "pages": [
+          "plastiq-off/overview",
+          "plastiq-off/how-to-reduce-microplastics",
+          "plastiq-off/reduce-microplastics-in-drinking-water",
+          "plastiq-off/microplastics-in-food",
+          "plastiq-off/are-microplastics-harmful",
+          "plastiq-off/microplastics-and-heart-health",
+          "plastiq-off/is-zeolite-safe",
+          "plastiq-off/zeolite-aluminum-safety",
+          "plastiq-off/zeolite-vs-charcoal-vs-chlorella",
+          "plastiq-off/zeolite-vs-bentonite-clay",
+          "plastiq-off/zeolite-vs-diatomaceous-earth",
+          "plastiq-off/detox-binders-compared",
+          "plastiq-off/zeolite-vs-fiber-and-natural-binders",
+          "plastiq-off/liquid-vs-capsule-zeolite",
+          "plastiq-off/mold-mycotoxins-and-binders",
+          "plastiq-off/do-detox-binders-work",
+          "plastiq-off/detox-vs-cleanse",
+          "plastiq-off/does-zeolite-remove-pfas",
+          "plastiq-off/microplastics-and-the-brain",
+          "plastiq-off/microplastics-and-gut-health",
+          "plastiq-off/how-to-take-plastiq-off",
+          "plastiq-off/best-microplastic-detox-supplement",
+          "plastiq-off/best-zeolite-supplement-with-b12",
+          "plastiq-off/plastiq-off-vs-touchstone-pure-body",
+          "plastiq-off/plastiq-off-vs-cytodetox",
+          "plastiq-off/plastiq-off-vs-root-clean-slate",
+          "plastiq-off/plastiq-off-vs-coseva-advanced-trs",
+          "plastiq-off/micronized-vs-nano-zeolite",
+          "plastiq-off/zeolite-vs-modified-citrus-pectin",
+          "plastiq-off/microplastics-and-fertility",
+          "plastiq-off/best-detox-supplement-for-energy-and-microplastics",
+          "plastiq-off/best-microplastic-detox-supplement-for-women",
+          "plastiq-off/zeolite-vs-milk-thistle",
+          "plastiq-off/binder-vs-chelator",
+          "plastiq-off/zeolite-vs-nac-and-glutathione",
+          "plastiq-off/best-microplastic-detox-supplement-for-men",
+          "plastiq-off/how-long-does-zeolite-take-to-work",
+          "plastiq-off/data"
+        ]
+      },
+      {
+        "group": "Home Health Guides",
+        "pages": [
+          "guides/home-health-monitoring-kit",
+          "guides/heart-health-at-home",
+          "guides/respiratory-health-at-home",
+          "guides/home-devices-for-seniors",
+          "guides/home-devices-for-new-parents",
+          "guides/cold-and-flu-season-kit",
+          "guides/fda-cleared-vs-approved",
+          "guides/buying-health-devices-online"
+        ]
+      }
+    ]
+  }
+}
