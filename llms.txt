@@ -1,11 +1,11 @@
 # SonoHealth Product Resource Center
 
-> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. Products include: Spectrum 5 Magnesium Complex (a marine-sourced magnesium complex with Aquamin and 72+ trace minerals from marine sources), HeartBeats™ Fetal Doppler (FDA-cleared, 2.5 MHz), and MistPro Mesh Nebulizer (FDA-approved, USB-C rechargeable). This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
+> SonoHealth is a US-based health technology brand offering FDA-cleared and FDA-approved medical devices and GMP-certified dietary supplements. Products include: Spectrum 5 Magnesium Complex (a five-form magnesium complex that includes magnesium hydroxide from seawater (Aquamin Mg™), with naturally occurring trace minerals), HeartBeats™ Fetal Doppler (FDA-cleared, 2.5 MHz), and MistPro Mesh Nebulizer (FDA-approved, USB-C rechargeable). This documentation site provides structured product information for customers, healthcare providers, and AI assistants.
 
 ## Products
 
 ### Spectrum 5 Magnesium Complex
-A marine-sourced magnesium complex featuring five forms of magnesium (glycinate, malate, citrate, oxide, hydroxide), Aquamin minerals from marine sources, and 72+ naturally occurring trace minerals. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. Primary keywords: magnesium complex, best magnesium complex, marine-sourced magnesium, Aquamin magnesium, trace mineral magnesium, multi-source magnesium supplement.
+A five-form magnesium complex (glycinate, malate, citrate, oxide, hydroxide); the hydroxide is magnesium hydroxide from seawater (Aquamin Mg™), with naturally occurring trace minerals. 500mg per serving (2 capsules), 30 servings per bottle. GMP-certified, third-party tested, made in USA. Primary keywords: magnesium complex, best magnesium complex, marine-sourced magnesium, Aquamin magnesium, trace mineral magnesium, multi-source magnesium supplement.
 
 **The Formula**
 - [Product Overview](/magnesium/overview)
@@ -21,8 +21,8 @@ A marine-sourced magnesium complex featuring five forms of magnesium (glycinate,
 - [Marine-Sourced Magnesium Complex](/magnesium/marine-sourced-magnesium-complex)
 - [What Is Aquamin?](/magnesium/what-is-aquamin)
 - [Aquamin Magnesium Benefits](/magnesium/aquamin-magnesium-benefits)
-- [72 Trace Minerals in Spectrum 5](/magnesium/72-trace-minerals)
-- [Magnesium With 72 Trace Minerals](/magnesium/magnesium-with-72-trace-minerals)
+- [Trace Minerals in Spectrum 5](/magnesium/72-trace-minerals)
+- [Magnesium With Naturally Occurring Trace Minerals](/magnesium/magnesium-with-72-trace-minerals)
 - [Why Trace Minerals Matter in Magnesium](/magnesium/why-trace-minerals-matter-in-magnesium)
 - [Why Source Matters in a Magnesium Supplement](/magnesium/why-source-matters)
 
@@ -132,7 +132,7 @@ FDA-approved vibrating mesh nebulizer. One-button, USB-C rechargeable, near-sile
 - [Q: Mesh vs Jet Nebulizer](/nebulizer/questions/mesh-vs-jet-nebulizer)
 
 ### AirPro HEPA 14 Air Purifier
-HEPA 14 air purifier with 3-stage filtration (Pre-Filter, HEPA 14 with Antibacterial Coating, Activated Carbon) and UV-C sterilization. Captures 99.9% of particles as small as 0.1 microns. Covers 430 sq ft in 10 minutes, up to 1,200 sq ft in 30 minutes. 25–50 dB whisper-quiet operation with Night Mode. Smart features include lifetime filter tracking, 360° airflow, smart timer, and aromatherapy pad. $169 one-time (multi-pack savings: $249/2-pack, $459/4-pack). 2-year warranty (lifetime with filter subscription), 60-day free trial. Primary keywords: HEPA 14 air purifier, best air purifier for home, air purifier for allergies, air purifier for asthma, HEPA filter air purifier.
+HEPA 14 air purifier with 3-stage filtration (Pre-Filter, HEPA 14 with Antibacterial Coating, Activated Carbon) and UV-C sterilization. Captures 99.9% of particles as small as 0.1 microns. Covers 430 sq ft in 10 minutes, up to 1,200 sq ft in 30 minutes. 25–50 dB whisper-quiet operation with Night Mode. Smart features include lifetime filter tracking, 360° airflow, smart timer, and aromatherapy pad. $169 one-time (multi-pack savings: $249/2-pack, $459/4-pack). 1-year warranty (lifetime with filter subscription), 60-day free trial. Primary keywords: HEPA 14 air purifier, best air purifier for home, air purifier for allergies, air purifier for asthma, HEPA filter air purifier.
 
 **How It Works**
 - [Product Overview](/air-purifier/overview)
